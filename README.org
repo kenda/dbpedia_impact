@@ -1,0 +1,7 @@
+* Academic impact of DBpedia
+
+This is the source of a term paper about the academic impact of [[http://dbpedia.org/About][DBpedia]]. The data is provided to support the process of replication.
+
+=scripts= contains the scripts that were used to retrieve and process the data
+=data= contains the data used for the paper
+=paper= contains the paper itself including the analyses scripts written in Gnu R

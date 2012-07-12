@@ -1,0 +1,1126 @@
+
+@inproceedings{popitsch_dsnotify:_2010,
+	address = {New York, {NY}, {USA}},
+	series = {{WWW} '10},
+	title = {{DSNotify:} handling broken links in the web of data},
+	isbn = {978-1-60558-799-8},
+	shorttitle = {{DSNotify}},
+	url = {http://doi.acm.org/10.1145/1772690.1772768},
+	doi = {10.1145/1772690.1772768},
+	abstract = {The Web of Data has emerged as a way of exposing structured linked data on the Web. It builds on the central building blocks of the Web {(URIs}, {HTTP)} and benefits from its simplicity and wide-spread adoption. It does, however, also inherit the unresolved issues such as the broken link problem. Broken links constitute a major challenge for actors consuming Linked Data as they require them to deal with reduced accessibility of data. We believe that the broken link problem is a major threat to the whole Web of Data idea and that both Linked Data consumers and providers will require solutions that deal with this problem. Since no general solutions for fixing such links in the Web of Data have emerged, we make three contributions into this direction: first, we provide a concise definition of the broken link problem and a comprehensive analysis of existing approaches. Second, we present {DSNotify}, a generic framework able to assist human and machine actors in fixing broken links. It uses heuristic feature comparison and employs a time-interval-based blocking technique for the underlying instance matching problem. Third, we derived benchmark datasets from knowledge bases such as {DBpedia} and evaluated the effectiveness of our approach with respect to the broken link problem. Our results show the feasibility of a time-interval-based blocking approach for systems that aim at detecting and fixing broken links in the Web of Data.},
+	booktitle = {Proceedings of the 19th international conference on World wide web},
+	publisher = {{ACM}},
+	author = {Popitsch, Niko P. and Haslhofer, Bernhard},
+	year = {2010},
+	keywords = {blocking, broken links, instance matching, Linked Data, link integrity},
+	pages = {761–770}
+},
+
+@inproceedings{duchateau_frbrpedia:_2011,
+	title = {{FRBRPedia:} a tool for {FRBRizing} web products and linking {FRBR} entities to {DBpedia}},
+	shorttitle = {{FRBRPedia}},
+	booktitle = {Proceeding of the 11th annual international {ACM/IEEE} joint conference on Digital libraries},
+	author = {Duchateau, F. and Takhirov, N. and Aalberg, T.},
+	year = {2011},
+	pages = {455–456},
+	file = {[PDF] von cnrs.fr:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/5DXJAWTQ/Duchateau et al. - 2011 - FRBRPedia a tool for FRBRizing web products and l.pdf:application/pdf}
+},
+
+@inproceedings{jiang_exploiting_2012,
+	title = {Exploiting Information Extraction, Reasoning and Machine Learning for Relation Prediction},
+	url = {http://data.semanticweb.org/conference/eswc/2012/paper/research/171},
+	abstract = {The three most common approaches for deriving or predicting instantiated relations, i.e. triple statements (s, p, o), are information extraction, reasoning and relational machine learning. Information extraction uses sensory information, typically in form of text, and extracts statements using various methods ranging from simple classifiers to the most sophisticated {NLP} approaches. Logical reasoning is based on a set of true statements and derives new statements via inference using higher-order logical axioms. Finally, machine learning exploits regularities in the data to predict the likelihood of new statements. In this paper we combine all three methods to exploit all sources of available information in a modular way, by which we mean that each approach, i.e., information extraction, reasoning, machine learning, can be optimized independently to be combined in an overall system. For relational machine learning, we present a novel approach based on hierarchical Bayesian multi-label learning which also sheds new light on common factorization approaches. We rank the probabilities for statements to be true in the sense that: given that we are forced to make a decision, what is the best option. We consider the fact that an entity can belong to more than one ontological class and discuss aggregation. We extend the approach to modeling nonlinear dependencies between relationships and for personalization. We validate our model using data from the Yago and the {DBpedia} ontology.},
+	booktitle = {9th Extended Semantic Web Conference {(ESWC2012)}},
+	author = {Jiang, Xueyan and Huang, Yi and Nickel, Maximilian and Tresp, Volker},
+	year = {2012}
+},
+
+@inproceedings{becker_dbpediaextracting_2009,
+	title = {{DBpedia–Extracting} structured data from Wikipedia},
+	abstract = {The {DBpedia} project is a community effort to extract structured information from Wikipedia and to make this information accessible on the Web as Linked Data. {DBpedia} allows one to ask sophisticated queries against Wikipedia, and to link other open data sets on the Web to Wikipedia data. Currently, the Web of interlinked data sources around {DBpedia} provides over 4.5 billion pieces of information and covers domains such as geographic information, people, companies, films, music, genes, drugs, books, and scientific publications.},
+	booktitle = {Presentation à Wikimania, Buenos Aires, Argentine},
+	author = {Becker, C. and Jentzsch, A.},
+	year = {2009}
+},
+
+@inproceedings{victor_saquicela_lightweight_2011,
+	title = {Lightweight Semantic Annotation of Geospatial {RESTful} Services},
+	url = {http://data.semanticweb.org/conference/eswc/2011/paper/services/5},
+	abstract = {{RESTful} services are increasingly gaining traction over {WS-*} ones. As with {WS-*} services, their semantic annotation can provide benefits in tasks related to their discovery, composition and mediation. In this paper we present an approach to automate the semantic annotation of {RESTful} services using a cross-domain ontology, two semantic resources like {DBpedia} and {GeoNames}, and additional external resources (suggestion and synonym services). We also present a preliminary evaluation in the geospatial domain that proves the feasibility of our approach in a domain where {RESTful} services are increasingly appearing and highlights that it is possible to carry out this semantic annotation with satisfactory results.},
+	booktitle = {()},
+	author = {{{Victor} Saquicela} and {{Luis} M. {Vilches-Blazquez}} and {{Oscar} Corcho}},
+	year = {2011}
+},
+
+@inproceedings{manuel_salvadores_quad_2011,
+	title = {The Quad Economy of a Semantic Web Ontology Repository},
+	url = {http://data.semanticweb.org/workshop/ssws/2011/paper/10},
+	abstract = {Publishers of Linked Data require scalable storage and retrieval in- frastructure due to the size of datasets and potentially high rate of lookups on popular sites. In this paper we investigate the feasibility of using a distributed key-value store as an underlying storage component for a Linked Data server which provides functionality for serving Linked Data via {HTTP} lookups and in addition offers single triple pattern lookups. We devise two storage schemes for our {CumulusRDF} system implemented on Apache Cassandra, an open-source key-value store. We compare the schemes with a state-of-the-art distributed {RDF} store on a subset of {DBpedia} and both synthetic workloads and workloads ob- tained from {DBpedia’s} access logs. Results on a cluster of up to 8 machines show that {CumulusRDF} is competetive to state-of-the-art distributed {RDF} stores.},
+	booktitle = {The 7th International Workshop on Scalable Semantic Web Knowledge Base Systems {(SSWS2011)}},
+	author = {{{Manuel} Salvadores} and {{Paul} R Alexander} and {{Mark} A. Musen} and {{Natalya} F. Noy}},
+	year = {2011}
+},
+
+@inproceedings{dolby_extracting_2009,
+	title = {Extracting Enterprise Vocabularies Using Linked Open Data.},
+	abstract = {A common vocabulary is vital to smooth business operation, yet codifying and maintaining an enterprise vocabulary is an arduous, manual task. We describe a process to automatically extract a domain specific vocabulary (terms and types) from unstructured data in the enterprise guided by term definitions in Linked Open Data {(LOD).} We validate our techniques by applying them to the {IT} {(Information} Technology) domain, taking 58 Gartner analyst reports and using two specific {LOD} sources – {DBpedia} and Freebase.},
+	booktitle = {8th International Semantic Web Conference {(ISWC2009)}},
+	author = {Dolby, Julian and Fokoue, Achille and Kalyanpur, Aditya and Schonberg, Edith and Srinivas, Kavitha},
+	year = {2009}
+},
+
+@inproceedings{erling_integrating_2008,
+	title = {Integrating Open Sources and Relational Data with {SPARQL.}},
+	booktitle = {{ESWC}},
+	author = {Erling, Orri and Mikhailov, Ivan},
+	year = {2008}
+},
+
+@inproceedings{elbassuoni_language-model-based_2009,
+	title = {Language-model-based ranking for queries on {RDF-graphs.}},
+	booktitle = {{CIKM}},
+	author = {Elbassuoni, Shady and Ramanath, Maya and Schenkel, Ralf and Sydow, Marcin and Weikum, Gerhard},
+	year = {2009}
+},
+
+@inproceedings{kobilarov_dbpedialinked_2009,
+	title = {{DBpedia–A} Linked Data Hub and Data Source for Web Applications and Enterprises},
+	booktitle = {In Proceedings of Developers Track of 18th International World Wide Web Conference},
+	author = {Kobilarov, G. and Bizer, C. and Auer, S. and Lehmann, J.},
+	year = {2009},
+	file = {[PDF] von jens-lehmann.org:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/UJNMARWT/Kobilarov et al. - DBpedia-A Linked Data Hub and Data Source for Web .pdf:application/pdf;Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/F5XCF53F/228.html:text/html}
+},
+
+@inproceedings{torres_improving_2012,
+	title = {Improving Wikipedia with {DBpedia}},
+	abstract = {{DBpedia} is the semantic mirror of Wikipedia. {DBpedia} extracts information from Wikipedia and stores it in a semantic knowledge base. This semantic feature relies in making complex queries inferring relations among articles which sometimes are missing in Wikipedia. This difference generates an information gap between {DBpedia} and Wikipedia. Could be improved Wikipedia with {DBpedia} new information to reduce this gap? How this new information should be added to Wikipedia? In this article, we propose a path indexing algorithm {(PIA)} who takes a data set of a {DBPedia} query and returns the best representative path to be applied in the Wikipedia. We evaluate the results of applying {PIA} to express the relation between people and their birth city.},
+	booktitle = {Proceedings of the 21st international conference companion on World Wide Web},
+	author = {Torres, D. and Molli, P. and {Skaf-Molli}, H. and Diaz, A.},
+	year = {2012},
+	pages = {1107–1112},
+	file = {[PDF] von archives-ouvertes.fr:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/8XTNTTVU/Torres et al. - 2012 - Improving Wikipedia with DBpedia.pdf:application/pdf;Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/W37QEX5G/citation.html:text/html}
+},
+
+@article{yi_huang_scalable_2012,
+	title = {A Scalable Approach for Statistical Learning in Semantic Graphs},
+	abstract = {Increasingly, data is published in form of semantic graphs. The most notable example is the Linked Open Data {(LOD)} initiative where an increasing number of data sources are published in the Semantic Web’s Ressource Description Framework and where the various data sources are linked to reference one another. In this paper we apply machine learning to semantic graph data and argue that scalability and robustness can be achieved via an urn-based statistical sampling scheme. We apply the urn model to the {SUNS} framework which is based on multivariate prediction. We argue that multivariate prediction approaches are most suitable for dealing with the resulting high-dimensional sparse data matrix. Within the statistical framework, the approach scales up to large domains and is able to deal with highly sparse relationship data. We summarize experimental results using a friend-of-a-friend data set and a data set derived from {DBpedia.} In more detail, we describe novel experiments on disease gene prioritization using {LOD} data sources. The experiments confirm the ease-of-use, the scalability and the good performance of the approach.},
+	journal = {{SWJ}},
+	author = {{{Yi} Huang} and {{Volker} Tresp} and {{Maximilian} Nickel} and {{Achim} Rettinger} and {{Hans-Peter} Kriegel}},
+	year = {2012}
+},
+
+@inproceedings{mirizzi_movie_2012,
+	title = {Movie recommendation with dbpedia},
+	booktitle = {3rd Italian Information Retrieval Workshop {(IIR} 2012). {CEUR-WS}},
+	author = {Mirizzi, R. and Di Noia, T. and Ragone, A. and Ostuni, V. and Di Sciascio, E.},
+	year = {2012}
+},
+
+@inproceedings{hellmann_german_2012,
+	title = {The German {DBpedia:} A Sense Repository for Linking Entities},
+	shorttitle = {The German {DBpedia}},
+	booktitle = {Linked Data in Linguistics},
+	author = {Hellmann, S. and Stadler, C. and Lehmann, J.},
+	year = {2012},
+	pages = {181–190},
+	file = {[PDF] von aksw.org:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/4AQB8QQR/Hellmann et al. - 2012 - The German DBpedia A Sense Repository for Linking.pdf:application/pdf;Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/8V7CVTFE/q4m7w7364691345h.html:text/html}
+},
+
+@inproceedings{philipp_heim_interactive_2010,
+	title = {Interactive Relationship Discovery via the Semantic Web},
+	url = {http://data.semanticweb.org/conference/eswc/2010/paper/inuse/31},
+	abstract = {This paper presents an approach for the interactive discovery of relationships between selected elements via the Semantic Web. It fills the gap between algorithms that find relationships in datasets of the Semantic Web and their efficient usage in real-world contexts. Selected elements are first semi-automatically mapped to unique objects of Semantic Web datasets. These datasets are then crawled for relationships which are presented both, in detail and overview. Interactive features and visual clues allow for sophisticated exploration of the found relationships on different levels. The general process is described and the {RelFinder} tool as a concrete implementation and proof-of-concept is presented. The benefits and application potentials are illustrated by a scenario which uses the {RelFinder} and {DBpedia} to assist a business analyst in decision-making. Finally, the approach is evaluated in a user study, and discussed and compared with related work.},
+	booktitle = {7th Extended Semantic Web Conference {(ESWC2010)}},
+	author = {{{Philipp} Heim} and {{Ste}en Lohmann} and {{Timo} Stegemann}},
+	year = {2010}
+},
+
+@inproceedings{halpin_is_2009,
+	address = {New York, {NY}, {USA}},
+	series = {{WWW} '09},
+	title = {Is there anything worth finding on the semantic web?},
+	isbn = {978-1-60558-487-4},
+	url = {http://doi.acm.org/10.1145/1526709.1526858},
+	doi = {10.1145/1526709.1526858},
+	abstract = {There has recently been an upsurge of interest in the possibilities of combining structured data and ad-hoc information retrieval from traditional hypertext. In this experiment, we run queries extracted from a query log of a major search engine against the Semantic Web to discover if the Semantic Web has anything of interest to the average user. We show that there is indeed much information on the Semantic Web that could be relevant for many queries for people, places and even abstract concepts, although they are overwhelmingly clustered around a Semantic Web-enabled export of Wikipedia known as {DBPedia.}},
+	booktitle = {Proceedings of the 18th international conference on World wide web},
+	publisher = {{ACM}},
+	author = {Halpin, Harry},
+	year = {2009},
+	keywords = {information retrieval, Linked Data, search, semantic web},
+	pages = {1065–1066}
+},
+
+@article{waitelonis_whoknows?_2011,
+	title = {{WhoKnows?} Evaluating linked data heuristics with a quiz that cleans up {DBpedia}},
+	volume = {8},
+	shorttitle = {{WhoKnows?}},
+	number = {4},
+	journal = {Interactive Technology and Smart Education},
+	author = {Waitelonis, J. and Ludwig, N. and Knuth, M. and Sack, H.},
+	year = {2011},
+	pages = {236–248},
+	file = {[PDF] von uni-potsdam.de:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/WHQ3N2T6/Waitelonis et al. - 2011 - WhoKnows Evaluating linked data heuristics with a.pdf:application/pdf;Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/5GAW6EDA/journals.html:text/html}
+},
+
+@inproceedings{yan_efficient_2009,
+	title = {Efficient Indices Using Graph Partitioning in {RDF} Triple Stores.},
+	abstract = {With the advance of the semantic Web, varying {RDF} data were increasingly generated, published, queried, and reused via the Web. For example, the {DBpedia}, a community effort to extract structured data from Wikipedia articles, broke 100 million {RDF} triples in its latest release. Initiated by Tim {Berners-Lee},likewise, the Linking Open Data {(LOD)} project has published and interlinked many open licence datasets which consisted of over 2 billion {RDF} triples so far. In this context, fast query response over such large scaled data would be one of the challenges to existing {RDF} data stores. In this paper, we propose a novel triple indexing scheme to help {RDF} query engine fast locate the instances within a small scope. By considering the {RDF} data as a graph, we would partition the graph into multiple subgraph pieces and store them individually, over which a signature tree would be built up to index the {URIs.} When a query arrives, the signature tree index is used to fast locate the partitions that might include the matches of the query by its constant {URIs.} Our experiments indicate that the indexing scheme dramatically reduces the query processing time in most cases because many partitions would be early filtered out and the expensive exact matching is only performed over a quite small scope against the original dataset.},
+	booktitle = {{ICDE}},
+	author = {Yan, Ying and Wang, Chen and Zhou, Aoying and Qian, Weining and Ma, Li and Pan, Yue},
+	year = {2009}
+},
+
+@inproceedings{bernhard_schandl_replication_2010,
+	title = {Replication and Versioning of Partial {RDF} Graphs},
+	url = {http://data.semanticweb.org/conference/eswc/2010/paper/mobility/6},
+	abstract = {The sizes of datasets available as {RDF} (e.g., as part of the Linked Data cloud) are increasing continuously. For instance, the recent {DBpedia} version consists of nearly 500 millions triples. A common strategy to avoid problems that arise e.g., from limited network connectivity or lack of bandwidth is to replicate data locally, therefore making them accessible for applications without depending on a network connection. For mobile devices with limited capabilities, however, the replication and synchronization of billions of triples is not feasible. To overcome this problem, we propose an approach to replicate parts of an {RDF} graph to a client. Applications may then apply changes to this partial replica while being offline; these changes are written back to the original data source upon reconnection. Our approach does not require any kind of additional logic (e.g., change logging) or data structures on the client side, and hence is suitable to be applied on devices with limited computing power and storage capacity.},
+	booktitle = {7th Extended Semantic Web Conference {(ESWC2010)}},
+	author = {{{Bernhard} Schandl}},
+	year = {2010}
+},
+
+@inproceedings{paulheim_nobody_2012,
+	title = {Nobody Wants to Live in a Cold City where no Music Has Been Recorded - Analyzing Statistics with {Explain-a-LOD}},
+	url = {http://data.semanticweb.org/conference/eswc/2012/paper/demonstation/315},
+	abstract = {While it is easy to find statistics on almost every topics, coming up with an explanation about those statistics is a much more difficult task. This demo showcases the prototype tool {Explain-a-LOD}, which uses background knowledge from {DBpedia} for generating possible explanations for a statistic.},
+	booktitle = {9th Extended Semantic Web Conference {(ESWC2012)}},
+	author = {Paulheim, Heiko},
+	year = {2012}
+},
+
+@article{fu_towards_????,
+	title = {Towards Better Understanding and Utilizing Relations in {DBpedia}},
+	journal = {Web Intelligence and Agent Systems},
+	author = {Fu, L. and Wang, H. and Yu, Y.}
+},
+
+@inproceedings{xing_niu_zhishi.me_2011,
+	title = {Zhishi.me - Weaving Chinese Linking Open Data},
+	url = {http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/70},
+	abstract = {Linking Open Data {(LOD)} has become one of the most important community efforts to publish high-quality interconnected semantic data. Such data has been widely used in many applications to provide intelligent services like entity search, personalized recommendation and so on. While {DBpedia}, one of the {LOD} core data sources, contains resources described in multilingual versions and semantic data in English is proliferating, there is very few work on publishing Chinese semantic data. In this paper, we present Zhishi.me, the first effort to publish large scale Chinese semantic data and link them together as a Chinese {LOD} {(CLOD).} More precisely, we identify important structural features in three largest Chinese encyclopedia sites (i.e., Baidu Baike, Hudong Baike, and Chinese Wikipedia) for extraction and propose several data-level mapping strategies for automatic link discovery. As a result, the {CLOD} has more than 5 million distinct entities and we simply link {CLOD} with the existing {LOD} based on the multilingual characteristic of Wikipedia. Finally, we also introduce three Web access entries namely {SPARQL} endpoint, lookup interface and detailed data view, which conform to the principles of publishing data sources to {LOD.}},
+	booktitle = {10th International Semantic Web Conference {(ISWC2011)}},
+	author = {{{Xing} Niu} and {{Xinruo} Sun} and {{Haofen} Wang} and {{Shu} Rong} and {{Guilin} Qi} and {{Yong} Yu}},
+	year = {2011}
+},
+
+@inproceedings{han_gorelations:_2011,
+	title = {Gorelations: An intuitive query system for dbpedia},
+	shorttitle = {Gorelations},
+	abstract = {Although a formal query language, {SPARQL}, is available for accessing {DBpedia}, it remains challenging for users to query the knowledge unless they are familiar with the syntax of {SPARQL} and the underlying ontology. We have developed both an intuitive semantic graph notation or interface allowing one to pose a query by annotating a graph with natural language terms denoting entities and relations and a system that automatically translates the query into {SPARQL} to produce an answer. Our key contributions are the robust techniques, combining statistical association and semantic similarity, that map user terms to the most appropriate classes and properties used in the {DBpedia} Ontology.},
+	booktitle = {Proceedings of the Joint International Semantic Technology Conference},
+	author = {Han, L. and Finin, T. and Joshi, A.},
+	year = {2011},
+	file = {[PDF] von umbc.edu:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/MF4WTBVJ/Han et al. - 2011 - Gorelations An intuitive query system for dbpedia.pdf:application/pdf}
+},
+
+@inproceedings{kontokostas_towards_2011,
+	title = {Towards linked data internationalization-realizing the Greek {DBpedia}},
+	booktitle = {Proceedings of the {ACM} {WebSci'11}},
+	author = {Kontokostas, D. and Bratsas, C. and Auer, S. and Hellmann, S. and Antoniou, I. and Metakides, G.},
+	year = {2011},
+	file = {[PDF] von webscience.org:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/M96Q9SE4/Kontokostas et al. - 2011 - Towards linked data internationalization-realizing.pdf:application/pdf;Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/8QBS4QGN/475.html:text/html}
+},
+
+@inproceedings{garcia-silva_multipedia:_2011,
+	title = {Multipedia: enriching {DBpedia} with multimedia information.},
+	booktitle = {{K-CAP}},
+	author = {{García-Silva}, Andrés and Jakob, Max and Mendes, Pablo N. and Bizer, Christian},
+	year = {2011}
+},
+
+@inproceedings{garcia_preliminary_2009,
+	title = {Preliminary results in tag disambiguation using dbpedia},
+	booktitle = {Knowledge Capture {(K-Cap'09)} - First International Workshop on Collective Knowledge Capturing and Representation},
+	author = {Garcia, A. and Szomszor, M. and Alani, H. and Corcho, O.},
+	year = {2009},
+	file = {[PDF] von open.ac.uk:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/TDNU4EU7/Garcia et al. - 2009 - Preliminary results in tag disambiguation using db.pdf:application/pdf;Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/CAZNH7BT/20006.html:text/html}
+},
+
+@inproceedings{haizhou_fu_effectively_2011,
+	title = {Effectively Interpreting Keyword Queries on {RDF} Databases with a Rear View},
+	url = {http://data.semanticweb.org/conference/iswc/2011/paper/research/325},
+	abstract = {Eﬀective techniques for keyword search over {RDF} databases incorporate an explicit interpretation phase that maps keywords in a keyword query to structured query constructs. Because of the ambiguity of keyword queries, it is often not possible to generate a unique interpretation for a keyword query. Consequently, heuristics geared toward generating the {top-K} likeliest user-intended interpretations have been proposed. However, heuristics currently proposed fail to capture any userdependent characteristics, but rather depend on database-dependent properties such as occurrence frequency of subgraph pattern connecting keywords. This leads to the problem of generating {top-K} interpretations that are not aligned with user intentions. In this paper, we propose a contextaware approach for keyword query interpretation that personalizes the interpretation process based on a user’s query context. Our approach addresses the novel problem of using a sequence of structured queries corresponding to interpretations of keyword queries in the query history as contextual information for biasing the interpretation of a new query. Experimental results presented over {DBPedia} dataset show that our approach outperforms the state-of-the-art technique on both eﬃciency and eﬀectiveness, particularly for ambiguous queries.},
+	booktitle = {10th International Semantic Web Conference {(ISWC2011)}},
+	author = {{{Haizhou} Fu} and {{Kemafor} Anyanwu}},
+	year = {2011}
+},
+
+@inproceedings{weiyi_ge_object_2010,
+	title = {Object Link Structure in the Semantic Web},
+	url = {http://data.semanticweb.org/conference/eswc/2010/paper/web_of_data/8},
+	abstract = {Lots of {RDF} data have been published in the Semantic Web. The {RDF} data model, together with the decentralized linkage nature of the Semantic Web, brings object link structure to the worldwide scope. Object links are critical to the Semantic Web and the macroscopic properties of object links are helpful for better understanding the current Data Web. In this paper, we propose a notion of object link graph {(OLG)} in the Semantic Web, and analyze the complex network structure of an {OLG} constructed from the latest dataset {(FC09)} collected by Falcons. We find that the {OLG} has the scale-free nature and the effective diameter of the graph is small compared to its scale. By another experimental result on the last year”s dataset {(FC08)}, we confirm our findings and observe that the object link graph is becoming denser and its diameter is shrinking during the past year, which indicates a good evolution of the Data Web. Finally, we repeat the complex network analysis on the two largest domain-specific subsets of {FC09}, namely {Bio2RDF(FC09)} and {DBpedia(FC09).} The results show that both {Bio2RDF(FC09)} and {DBpedia(FC09)} have low density in object links, which has great influence on the density of object links in {FC09.}},
+	booktitle = {7th Extended Semantic Web Conference {(ESWC2010)}},
+	author = {{{Weiyi} Ge} and {{Jianfeng} Chen} and {{Wei} Hu} and {{Yuzhong} Qu}},
+	year = {2010}
+},
+
+@inproceedings{munoz-garcia_identifying_2011,
+	title = {Identifying Topics in Social Media Posts using {DBpedia}},
+	abstract = {This paper describes a method for identifying topics in text published in social media, by applying topic recognition techniques that exploit {DBpedia.} We evaluate such method for social media in Spanish and we provide the results of the evaluation performed.},
+	booktitle = {In Proceedings of the {NEM} Summit},
+	author = {{Muñoz-García}, O. and {García-Silva}, A. and Corcho, Ó and de la Higuera Hernández, M. and Navarro, C.},
+	year = {2011},
+	file = {[PDF] von upm.es:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/B9G76DQE/Muñoz-García et al. - 2011 - Identifying Topics in Social Media Posts using DBp.pdf:application/pdf;Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/4AK9B4QT/9024.html:text/html}
+},
+
+@inproceedings{vallet_exploiting_2010,
+	title = {Exploiting external knowledge to improve video retrieval.},
+	abstract = {Most video retrieval systems are multimodal, commonly relying on textual information, low- and high-level semantic features extracted from query visual examples. In this work, we study the impact of exploiting different knowledge sources in order to automatically retrieve query visual examples relevant to a video retrieval task. Our hypothesis is that the exploitation of external knowledge sources can help on the identification of query semantics as well as on improving the understanding of video contents.
+
+We propose a set of techniques to automatically obtain additional query visual examples from different external knowledge sources, such as {DBPedia}, Flickr and Google Images, which have different coverage and structure characteristics. The proposed strategies attempt to exploit the semantics underlying the above knowledge sources to reduce the ambiguity of the query, and to focus the scope of the image searches in the repositories.
+
+We assess and compare the quality of the images obtained from the different external knowledge sources when used as input of a number of video retrieval tasks. We also study how much they complement manually provided sets of examples, such as those given by {TRECVid} tasks.
+
+Based on our experimental results, we report which external knowledge source is more likely to be suitable for the evaluated retrieval tasks. Results also demonstrate that the use of external knowledge can be a good complement to manually provided examples and, when lacking of visual examples provided by a user, our proposed approaches can retrieve visual examples to improve the user's query.},
+	booktitle = {Proceedings of the international conference on Multimedia information retrieval},
+	author = {Vallet, David and Cantador, Iván and Jose, Joemon M.},
+	year = {2010}
+},
+
+@inproceedings{giuseppe_rizzo_nerd:_2011,
+	title = {{NERD:} A Framework for Evaluating Named Entity Recognition Tools in the Web of Data},
+	url = {http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/35},
+	abstract = {In this paper, we present {NERD}, an evaluation framework we have developed that records and analyzes ratings of Named Entity {(NE)} extraction and disambiguation tools working on English plain text articles performed by human beings. {NERD} enables the comparison of different popular Linked Data entity extractors which expose {APIs} such as {AlchemyAPI}, {DBPedia} Spotlight, Extractiv, {OpenCalais} and Zemanta. Given an article and a particular tool, a user can assess the precision of the named entities extracted, their typing and linked data {URI} provided for disambiguation and their subjective relevance for the text. All user interactions are stored in a database. We propose the {NERD} ontology that deﬁnes mappings between the types detected by the diﬀerent {NE} extractors. The {NERD} framework enables then to visualize the comparative performance of these tools with respect to human assessment. Key words: Entity extraction, Linked Data, Natural Language Processing, Evaluation of Linked Data entity extraction tools 1},
+	booktitle = {10th International Semantic Web Conference {(ISWC2011)}},
+	author = {{{Giuseppe} Rizzo} and {{Raphael} Troncy}},
+	year = {2011}
+},
+
+@inproceedings{grisel_automated_2012,
+	title = {Automated Linking Data with Apache Stanbol},
+	url = {http://data.semanticweb.org/conference/www/2012/dev/42},
+	abstract = {This talk will introduce the Stanbol project and showcase how it can be integrated in traditional Enterprise Content Management {products.Stanbol} is an Open Source project under incubation at the Apache Software Foundation. Its goal is to provide Web and {CMS} developers with a set of {HTTP} / {RESTful} services to help them integrate semantic technologies into their products and web {sites.The} following Stanbol services are currently under active developments:- Enhancement engines: use Natural Language Processing tools such as Apache {OpenNLP} or external services to extract knowledge (topics, named entities, facts) from unstructured content and link it to unambiguous {URIs} from reference knowledge bases;- Entity Hub: a Linked Data indexing cache built on top of Apache Solr, Clerezza and Jena that comes with precomputed indexes and live connectors to popular knowledge bases such as {DBpedia}, Geonames, {YAGO} or custom {SKOS} taxonomies...- Content Hub: a faceted search engine based on Solr to search for content using the knowledge automatically extracted by the enhancement engines;- {CMS} bridges to lift the structured content of document repositories using the {JCR} and {CMIS} access protocols (using Apache Chemistry) and store the result into a triple store suitable for {SPARQL} access;- Rules engine based on Apache Jena for knowledge refactoring (e.g. convert extracted knowledge into the rich snippet vocabulary for {SEO)}, integrity checks, merging rules, deductive {inference...The} Semantic Web has made significant progress over the last years, and while it always gave a lot of promises, it is now the time where it can concretely be used in Enterprise {Solutions.If} you are curious about the web of data, and want to see how concretely it can be used and integrated today in enterprise solutions thanks to software like the Stanbol projects, this session is for {you.Stanbol} project homepage: {https://incubator.apache.org/stanbol/Full} stanbol demo of Stanbol Services: http://dev.iks-project.eu:8081/\#\# Note for the reviewers (to be removed from the published {abstract):Here} is the slide deck of a similar talk I gave a {ApacheCon} in November 2011. {http://www.slideshare.net/nuxeo/apache-stanbol-and-the-web-of-data-apachecon-2011You} can also connect to this Nuxeo Document Management demo that uses {Stanbol:http://temis.demo.nuxeo.comLogin:} {AdministratorPassword:} {AdministratorTo} test the Nuxeo / Stanbol / Temis / {DBpedia} integration you can go to a workspace an create a new document of type {"Note"} and copy and paste text from some wikinews article. Upon saving the content will automatically get analyzed and linked to referenced {entities.Note:} this demo has not been updated for a while. For wwww2012 I will also be able to demonstrate automated topic classification (rather that just entities occurences).},
+	booktitle = {21st International World Wide Web Conference {(WWW2012)}},
+	author = {Grisel, Olivier},
+	year = {2012}
+},
+
+@inproceedings{foulonneau_generating_2011,
+	title = {Generating Educational Assessment Items from Linked Open Data: The Case of {DBpedia}},
+	shorttitle = {Generating Educational Assessment Items from Linked Open Data},
+	booktitle = {The Semantic Web: {ESWC} 2011 Workshops},
+	author = {Foulonneau, M.},
+	year = {2011},
+	pages = {16–27},
+	file = {Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/FP34DDJC/c1l03963332j2461.html:text/html}
+},
+
+@inproceedings{pilar_leon_arauz_linking_2011,
+	title = {Linking {Domain-Specific} Knowledge to Encyclopedic Knowledge: an Initial Approach to Linked Data},
+	url = {http://data.semanticweb.org/workshop/msw/2011/paper/3},
+	abstract = {Linked Data creates a shared information space by publishing andconnecting resources in the Semantic Web. However, the specification ofsemantic relationships between data sources is still a stumbling block. Onesolution is to enrich ontologies with multilingual and concept-orientedinformation. Usefully linking entities in the Semantic Web is thus facilitated bya semantic-oriented cross-lingual ontology mapping framework in whichknowledge representations are not restricted to a particular natural {language.Accordingly}, this paper describes a preliminary approach for integrating generalencyclopedic knowledge in {DBpedia} with {EcoLexicon}, a multilingualterminological knowledge base on the environment.},
+	booktitle = {2nd Workshop on the Multilingual Semantic Web {(MSW2011)}},
+	author = {{{Pilar} León Araúz} and {{Pamela} Faber} and {{Pedro} J. Magaña Redondo}},
+	year = {2011}
+},
+
+@inproceedings{khalid_framework_2011,
+	title = {A framework for integrating {DBpedia} in a multi-modality ontology news image retrieval system},
+	booktitle = {Semantic Technology and Information Retrieval {(STAIR)}, 2011 International Conference on},
+	author = {Khalid, Y. I. and Noah, S. A.},
+	year = {2011},
+	pages = {144–149},
+	file = {Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/USDKAZ9R/login.html:text/html}
+},
+
+@inproceedings{becker_dbpedia_2008,
+	title = {{DBpedia} mobile: A location-enabled linked data browser},
+	shorttitle = {{DBpedia} mobile},
+	abstract = {In this demonstration, we present {DBpedia} Mobile, alocation-centric {DBpedia} client application for mobile devicesconsisting of a map view and a Fresnel-based {LinkedData} browser. The {DBpedia} project extracts structuredinformation from Wikipedia and publishes this informationas Linked Data on the Web. The {DBpedia} dataset containsinformation about 1.95 million things, including 200,000geographic locations. {DBpedia} is interlinked with variousother location-related datasets. Based on the current {GPSposition} of a mobile device, {DBpedia} Mobile renders amap indicating nearby locations from the {DBpedia} {dataset.Starting} from this map, users can explore background informationabout locations and can navigate into interlinkeddatasets. {DBpedia} Mobile demonstrates that the {DBpediadataset} can serve as a useful starting point to explore {theGeospatial} Semantic Web using a mobile device.},
+	booktitle = {Linked Data on the Web {(LDOW2008)}},
+	author = {Becker, C. and Bizer, C.},
+	year = {2008},
+	file = {[PDF] von ethz.ch:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/MWTQA94F/Becker und Bizer - 2008 - DBpedia mobile A location-enabled linked data bro.pdf:application/pdf}
+},
+
+@inproceedings{man_zhu_dc_2011,
+	title = {{DC} Proposal: Ontology Learning from Noisy Linked Data},
+	url = {http://data.semanticweb.org/conference/iswc/2011/paper/doctoral-consortium/20},
+	abstract = {Mobile devices like smartphones together with social networks enable people to generate, share, and consume enormous amounts of media content. Common search operations, for example searching for a music clip based on artist name and song title on video platforms such as {YouTube}, can be achieved both based on potentially shallow human-generated metadata, or based on more profound content analysis, driven by Optical Character Recognition {(OCR)} or Automatic Speech Recognition {(ASR).} However, more advanced use cases, such as summaries or compilations of several pieces of media content covering a certain event, are hard, if not impossible to fulfill at large scale. One example of such event can be a keynote speech held at a conference, where, given a stable network connection, media content is published on social networks while the event is still going {on.In} our thesis, we develop a framework for media content processing, leveraging social networks, utilizing the Web of Data and fine-grained media content addressing schemes like Media Fragments {URIs} to provide a scalable and sophisticated solution to realize the above use cases: media content summaries and compilations. We evaluate our approach on the entity level against social media platform {APIs} in conjunction with Linked {(Open)} Data sources, comparing the current manual approaches against our semi-automated approach. Our proposed framework can be used as an extension for existing video platforms.},
+	booktitle = {10th International Semantic Web Conference {(ISWC2011)}},
+	author = {{{Man} Zhu}},
+	year = {2011}
+},
+
+@inproceedings{heder_round-trip_2012,
+	title = {Round-trip semantics with Sztakipedia and {DBpedia} Spotlight},
+	abstract = {We describe a tool kit to support a knowledge-enhancement cycle on the Web. In the first step, structured data which is extracted from Wikipedia is used to construct automatic content enhancement engines. Those engines can be used to interconnect knowledge in structured and unstructured information sources on the Web, including Wikipedia it- self. Sztakipedia-toolbar is a {MediaWiki} user script which brings {DBpedia} Spotlight and other kinds of machine in- telligence into the Wiki editor interface to provide enhance- ment suggestions to the user. The suggestions offered by the tool focus on complementing knowledge and increasing the availability of structured data on Wikipedia. This will, in turn, increase the available information for the content en- hancement engines themselves, completing a virtuous cycle of knowledge enhancement.},
+	booktitle = {Proceedings of the 21st international conference companion on World Wide Web},
+	author = {Héder, M. and Mendes, P. N},
+	year = {2012},
+	pages = {357–360},
+	file = {[PDF] von wwwconference.org:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/WBVBXB85/Héder und Mendes - 2012 - Round-trip semantics with Sztakipedia and DBpedia .pdf:application/pdf;Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/34H7FSUC/citation.html:text/html}
+},
+
+@inproceedings{taneva_gathering_2010,
+	title = {Gathering and ranking photos of named entities with high precision, high recall, and diversity.},
+	booktitle = {{WSDM}},
+	author = {Taneva, Bilyana and Kacimi, Mouna and Weikum, Gerhard},
+	year = {2010}
+},
+
+@inproceedings{tacchini_web_2009,
+	title = {Web data fusion in the {Wikipedia/DBpedia} domain},
+	author = {{TACCHINI}, E.},
+	year = {2009},
+	file = {Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/6584KCUP/140981.html:text/html}
+},
+
+@inproceedings{alexandre_passant_:me_2008,
+	title = {:me {owl:sameAs} {flickr:33669349@N00} .},
+	url = {http://data.semanticweb.org/workshop/LDOW/2008/paper/16},
+	abstract = {In order to release the Social Semantic Web and solve data-portability issues, there is a need from Web 2.0 providers to open their data and deliver it in machine-redeable way. Modeling it with vocabularies as {FOAF}, {SIOC}, as well as reusing data from the Linked Data initiative as {DBpedia} or geonames.org can help to achieve this {task.The} goal of this demo is to showcase a {RDF} exporter for Flickr profiles that acts such a way.},
+	booktitle = {Linked Data on the Web {(LDOW2008)}},
+	author = {{{Alexandre} Passant}},
+	year = {2008}
+},
+
+@article{mika_learning_2008,
+	title = {Learning to Tag and Tagging to Learn: A Case Study on Wikipedia.},
+	journal = {{IEEE} Intelligent Systems},
+	author = {Mika, Peter and Ciaramita, Massimiliano and Zaragoza, Hugo and Atserias, Jordi},
+	year = {2008}
+},
+
+@inproceedings{varga_integrating_2011,
+	title = {Integrating {DBpedia} and {SentiWordNet} for a tourism recommender system},
+	booktitle = {Intelligent Computer Communication and Processing {(ICCP)}, 2011 {IEEE} International Conference on},
+	author = {Varga, B. and Groza, A.},
+	year = {2011},
+	pages = {133–136},
+	file = {Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/BU9RTBT4/login.html:text/html}
+},
+
+@inproceedings{kim_approach_2010,
+	title = {An Approach for Supplementing the Korean Wikipedia based on {DBpedia}},
+	author = {Kim, E. and Choi, D. H and Lee, J. and Ahn, J. H and Choi, K. S},
+	year = {2010},
+	file = {[PDF] von kaist.ac.kr:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/ZSHCZUPX/Kim et al. - An Approach for Supplementing the Korean Wikipedia.pdf:application/pdf}
+},
+
+@inproceedings{sebastian_hellmann_semantic_2010,
+	title = {The Semantic Gap of Formalized Meaning},
+	url = {http://data.semanticweb.org/conference/eswc/2010/paper/phd_symposium/30},
+	abstract = {Recent work in Ontology Learning and Textmining mainly focused on engineering methods to solve practical problem. In this thesis, we investigate methods that can substantially improve a wide range of existing approaches by minimizing the underlying problem: The Semantic Gap between formalized meaning and human cognition. We deploy {OWL} as a Meaning Representation Language and create a unified model, which combines existing {NLP} methods with Linguistic knowledge and aggregates disambiguated background knowledge from the Web of Data. The presented methodology allows to study and evaluate the capabilities of such aggregated knowledge to improve the efficiency of methods in Ontology Learning.},
+	booktitle = {7th Extended Semantic Web Conference {(ESWC2010)}},
+	author = {{{Sebastian} Hellmann}},
+	year = {2010}
+},
+
+@inproceedings{a._elizabeth_cano_topica:_2011,
+	title = {{TOPICA:} A Tool for Visualising Emerging Semantics of {POIs} based on Social Awareness Streams},
+	url = {http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/70},
+	abstract = {{{\textless}i{\textgreater}Topica} {\textless}/i{\textgreater}is an application that enriches the Social Web with semantic data, to enable collective perception of Points of Interest {(POIs)}, which are human constructs that describe information about locations (e.g., restaurants, attractions, cities). {{\textless}i{\textgreater}Topica} {\textless}/i{\textgreater}provides an extra layer of information, compared to existing applications for browsing {POIs}, by modelling hidden characteristics of {POIs}, by: (1) generating a Linked Data representation of the collective perception of a {POI;} (2) enhancing the {POI} representation by mashing up services that enrich the {POI’s} related entities; and (3) providing a visual representation of the {POIs} adapted to suit userand context-sensitive ﬁlters. {{\textless}i{\textgreater}Topica} {\textless}/i{\textgreater}identiﬁes topics relevant to a {POI} by extracting {DBpedia} categories from {\textless}i{\textgreater}entities {\textless}/i{\textgreater}(e.g., People, Places) and {\textless}i{\textgreater}keywords{\textless}/i{\textgreater} (e.g., Crete, Bonn) obtained from social awareness streams related to the {POIs.} {{\textless}b{\textgreater}Key} words: {{\textless}/b{\textgreater}Linked} Data, Semantic Web, Point of Interest, Social Awareness Streams, citizen-sensing, social data mining, emerging semantics {\textless}b{\textgreater}1{\textless}/b{\textgreater}},
+	booktitle = {10th International Semantic Web Conference {(ISWC2011)}},
+	author = {{{A.} Elizabeth Cano} and {{Gregoire} Burel} and {{Aba-Sah} Dadzie} and {{Fabio} Ciravegna}},
+	year = {2011}
+},
+
+@inproceedings{lehmann_autosparql:_2011,
+	title = {{AutoSPARQL:} Let Users Query Your Knowledge Base},
+	url = {http://data.semanticweb.org/conference/eswc/2011/paper/inductive-approaches/6},
+	abstract = {An advantage of Semantic Web standards like {RDF} and {OWL} is their flexibility in modifying the structure of a knowledge base. To turn this flexibility into a practical advantage, it is of high importance to have tools and methods, which offer similar flexibility in extracting information from a knowledge base. This is closely related to the ability to easily formulate queries over those knowledge bases. We explain benefits and drawbacks of existing techniques in achieving this goal and then present the {QTL} algorithm, which fills a gap in research and practice. It uses supervised machine learning and allows users to ask queries without knowing the schema of the underlying knowledge base beforehand and without expertise in the {SPARQL} query language. We then present the {AutoSPARQL} user interface, which implements an active learning approach on top of {QTL.} Finally, we present an evaluation based on the {SPARQL} query log of the {DBpedia} knowledge base.},
+	booktitle = {8th Extended Semantic Web Conference {(ESWC2011)}},
+	author = {Lehmann, Jens and Bühmann, Lorenz},
+	year = {2011}
+},
+
+@inproceedings{posea_bridging_2009,
+	title = {Bridging Ontologies and Folksonomies using {DBpedia}},
+	booktitle = {the proceedings of the 17th International Conference on Control Systems and Computer Science. Bucharest, Romania},
+	author = {Posea, V. and {Trausan-Matu}, S.},
+	year = {2009}
+},
+
+@phdthesis{battassini_uma_2011,
+	title = {Uma ferramenta para busca temporal na {DBPedia} a partir de uma ontologia},
+	author = {Battassini, R.},
+	year = {2011},
+	file = {[PDF] von ufrgs.br:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/JPW8HNAV/Battassini - 2011 - Uma ferramenta para busca temporal na DBPedia a pa.pdf:application/pdf;Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/7CJS686F/36926.html:text/html}
+},
+
+@inproceedings{szczuka_clustering_2011,
+	title = {Clustering of Rough Set Related Documents with Use of Knowledge from {DBpedia.}},
+	booktitle = {Proceedings of the 6th international conference on Rough sets and knowledge technology},
+	author = {Szczuka, Marcin S. and Janusz, Andrzej and Herba, Kamil},
+	year = {2011},
+	file = {Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/9GIT4FDQ/x003w22u64x74qj7.html:text/html}
+},
+
+@inproceedings{mirizzi_semantic_2010,
+	title = {Semantic tag cloud generation via {DBpedia}},
+	abstract = {Many current recommender systems exploit textual annotations (tags) provided by users to retrieve and suggest online contents. The text-based recommendation provided by these systems could be enhanced (i) using unambiguous identifiers representative of tags and (ii) exploiting semantic relations among tags which are impossible to be discovered by traditional textual analysis. In this paper we concentrate on annotation and retrieval of web content, exploiting semantic tagging with {DBpedia.} We use semantic information stored in the {DBpedia} dataset and propose a new hybrid ranking system to rank keywords and to expand queries for- mulated by the user. Inputs of our ranking system are (i) the {DBpedia} dataset; (ii) external information sources such as classical search engine results and social tagging systems. We compare our approach with other {RDF} similarity measures, proving the validity of our algorithm with an extensive evaluation involving real users.},
+	booktitle = {11th International Conference on Electronic Commerce and Web Technologies {ECWeb10} (2010)},
+	author = {Mirizzi, R. and Ragone, A. and Di Noia, T. and Di Sciascio, E.},
+	year = {2010},
+	pages = {36–48},
+	file = {[PDF] von poliba.it:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/JSX5TP9C/Mirizzi et al. - 2010 - Semantic tag cloud generation via dBpedia.pdf:application/pdf;Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/9RN5TBPW/books.html:text/html}
+},
+
+@article{heath_revyu:_2008,
+	title = {Revyu: Linking reviews and ratings into the Web of Data.},
+	journal = {J. Web Sem.},
+	author = {Heath, Tom and Motta, Enrico},
+	year = {2008}
+},
+
+@inproceedings{mirizzi_semantic_2010-1,
+	title = {Semantic wonder cloud: exploratory search in dbpedia},
+	shorttitle = {Semantic wonder cloud},
+	booktitle = {Current Trends in Web Engineering},
+	author = {Mirizzi, R. and Ragone, A. and Di Noia, T. and Di Sciascio, E.},
+	year = {2010},
+	pages = {138–149},
+	file = {Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/JPEQMPMN/k9927r31116l4434.html:text/html}
+},
+
+@inproceedings{kim_towards_2010,
+	title = {Towards a Korean {DBpedia} and an Approach for Complementing the Korean Wikipedia based on {DBpedia}},
+	booktitle = {Proceedings of the 5th Open Knowledge Conference},
+	author = {Kim, E. and Weidl, M. and Choi, K. S and Auer, S.},
+	year = {2010},
+	file = {[PDF] von kaist.ac.kr:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/AAI52JRI/Kim et al. - 2010 - Towards a Korean DBpedia and an Approach for Compl.pdf:application/pdf}
+},
+
+@article{weichselbraun_refining_2010,
+	title = {Refining non-taxonomic relation labels with external structured data to support ontology learning.},
+	abstract = {This paper presents a method to integrate external knowledge sources such as {DBpedia} and {OpenCyc} into an ontologylearning system that automatically suggests labels for unknown relations in domain ontologies based on large corpora of unstructured text. The method extracts and aggregates verb vectors from semantic relations identified in the corpus. It composes a knowledge base which consists of (i) verb centroids for known relations between domain concepts, (ii) mappings between concept pairs and the types of known relations, and (iii) ontological knowledge retrieved from external sources. Applying semantic inference and validation to this knowledge base improves the quality of suggested relationlabels. A formal evaluation compares the accuracy and average ranking precision of this hybrid method with the performance of methods that solely rely on corpus data and those that are only based on reasoning and externaldata sources.},
+	journal = {Data Knowl. Eng.},
+	author = {Weichselbraun, Albert and Wohlgenannt, Gerhard and Scharl, Arno},
+	year = {2010}
+},
+
+@inproceedings{fu_cosi:_2011,
+	title = {{CoSi:} {Context-Sensitive} Keyword Query Interpretation on {RDF} Databases},
+	url = {http://data.semanticweb.org/conference/www/2011/demo/cosi-context-sensitive-keyword-query-interpretatio},
+	abstract = {The demo will present {CoSi}, a system that enables context-sensitive interpretation of keyword queries on {RDF} databases. The techniques for representing, managing and exploiting query history are central to achieving this objective. The demonstration will show the effectiveness of our approach for capturing a user's querying context from their query history. Further, it will show how context is utilized to influence the interpretation of a new query. The demonstration is based on {DBPedia}, the {RDF} representation of Wikipedia.},
+	booktitle = {20th International World Wide Web Conference {(WWW2011)}},
+	author = {Fu, Haizhou and Gao, Sidan and Anyanwu, Kemafor},
+	year = {2011},
+	pages = {209}
+},
+
+@inproceedings{aditya_kalyanpur_leveraging_2011,
+	title = {Leveraging Community-built Knowledge for Type Coercion in Question Answering},
+	url = {http://data.semanticweb.org/conference/iswc/2011/paper/semantic-web-in-use/18},
+	abstract = {Watson,  the  winner  of  the  Jeopardy!  challenge,  is  a  state-of-the-art 
+open-domain Question Answering system that  tackles  the  fundamental  issue  of 
+answer typing by using a novel type coercion {(TyCor)} framework, where candidate answers are initially produced without considering type information, and 
+subsequent stages check whether the candidate can be coerced into the expected 
+answer type. In this paper, we provide a high-level overview of the {TyCor} 
+framework and discuss how it is integrated in Watson, focusing on and evaluating  three  {TyCor}  components  that  leverage the community built semi-structured 
+and structured knowledge resources -- {DBpedia} (in conjunction with the {YAGO} 
+ontology), Wikipedia Categories and Lists. These resources complement each 
+other well in terms of precision and granularity of type information, and 
+through links to Wikipedia, provide coverage for a large set of instances},
+	booktitle = {10th International Semantic Web Conference {(ISWC2011)}},
+	author = {{{Aditya} Kalyanpur} and {{J} William Murdock} and {{James} Fan} and {{Chris} Welty}},
+	year = {2011}
+},
+
+@inproceedings{auer_dbpedia:_2007,
+	title = {{DBpedia:} A Nucleus for a Web of Open Data.},
+	booktitle = {In Proceedings of 6th International Semantic Web Conference, 2nd Asian Semantic Web Conference {(ISWC+ASWC} 2007)},
+	author = {Auer, Sören and Bizer, Christian and Kobilarov, Georgi and Lehmann, Jens and Cyganiak, Richard and Ives, Zachary G.},
+	year = {2007}
+},
+
+@inproceedings{papantoniou_framework_2011,
+	title = {A Framework for Visualizing the Web of Data: Combining {DBpedia} and Open {APIs.}},
+	booktitle = {Panhellenic Conference on Informatics},
+	author = {Papantoniou, Agis and Loumos, Vassilis and Poulizos, Miltos and Rigas, Gregory},
+	year = {2011},
+	file = {Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/T5TXWRS2/login.html:text/html}
+},
+
+@inproceedings{paola_monachesi_using_2010,
+	title = {Using social media for ontology enrichment},
+	url = {http://data.semanticweb.org/conference/eswc/2010/paper/social_web/29},
+	abstract = {In order to support informal learning, we complement the formal knowledge represented by ontologies developed by domain experts with the informal knowledge emerging from social tagging. To this end, we have developed an ontology enrichment pipeline that can automatically enrich a domain ontology using: data extracted by a crawler from social media applications, similarity measures, the {DBpedia} knowledge base, a disambiguation algorithm and several heuristics. The main goal is to provide dynamic and personalized domain ontologies that include the knowledge of the community of users. They will support a more personalized learning experience able to fulfill the needs of different types of learners.},
+	booktitle = {7th Extended Semantic Web Conference {(ESWC2010)}},
+	author = {{{Paola} Monachesi} and {{Thomas} Markus}},
+	year = {2010}
+},
+
+@inproceedings{diego_berrueta_xslt+sparql:_2008,
+	title = {{XSLT+SPARQL:} Scripting the Semantic Web with {SPARQL} embedded into {XSLT} stylesheets},
+	url = {http://data.semanticweb.org/workshop/scripting/2008/paper/1},
+	abstract = {Scripting the Semantic Web requires to access and transform {RDF} data. We present {XSLT+SPARQL}, a set of extension functions for {XSLT} which allow stylesheets to directly access {RDF} data, independently of any serialization syntax, by means of {SPARQL} queries. Using these functions, {XSLT} stylesheets can retrieve, query, merge and transform data from the semantic web. We illustrate the functionality of our proposal with an example script which creates {XHTML} pages from the contents of {DBpedia.}},
+	booktitle = {4th Workshop on Scripting for the Semantic Web {(SFSW2008)}},
+	author = {{{Diego} Berrueta} and {{Jose} E. Labra} and {{Ivan} Herman}},
+	year = {2008}
+},
+
+@inproceedings{keong_meta_2011,
+	title = {Meta search engine powered by {DBpedia}},
+	booktitle = {Semantic Technology and Information Retrieval {(STAIR)}, 2011 International Conference on},
+	author = {Keong, B. V and Anthony, P.},
+	year = {2011},
+	pages = {89–93},
+	file = {[PDF] von cuc.edu.cn:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/GTX6K3VR/Keong und Anthony - 2011 - Meta search engine powered by DBpedia.pdf:application/pdf;Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/5T3KBNWE/login.html:text/html}
+},
+
+@inproceedings{chan_vispedia:_2009,
+	title = {Vispedia: on-demand data integration for interactive visualization and exploration.},
+	booktitle = {{SIGMOD} Conference},
+	author = {Chan, Bryan and Talbot, Justin and Wu, Leslie and Sakunkoo, Nathan and Cammarano, Mike and Hanrahan, Pat},
+	year = {2009}
+},
+
+@inproceedings{aasman_utilizing_2008,
+	title = {Utilizing Federated Knowledge in Semantic Web Applications.},
+	booktitle = {{ICSC}},
+	author = {Aasman, Jans},
+	year = {2008}
+},
+
+@inproceedings{ochs_google_2011,
+	title = {Google Knows Who is Famous {Today–Building} an Ontology from Search Engine Knowledge and {DBpedia}},
+	booktitle = {Semantic Computing {(ICSC)}, 2011 Fifth {IEEE} International Conference on},
+	author = {Ochs, C. and Tian, T. and Geller, J. and Chun, S.},
+	year = {2011},
+	pages = {320–327},
+	file = {Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/9ZXKRB7D/login.html:text/html}
+},
+
+@inproceedings{stankovic_discovering_2011,
+	title = {Discovering Relevant Topics Using {DBPedia:} Providing Non-obvious Recommendations},
+	volume = {1},
+	shorttitle = {Discovering Relevant Topics Using {DBPedia}},
+	booktitle = {Web Intelligence and Intelligent Agent Technology {(WI-IAT)}, 2011 {IEEE/WIC/ACM} International Conference on},
+	author = {Stankovic, M. and Breitfuss, W. and Laublet, P.},
+	year = {2011},
+	pages = {219–222},
+	file = {Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/7WKXP37J/login.html:text/html}
+},
+
+@inproceedings{minno_slicing_2010,
+	title = {Slicing linked data by extracting significant, self-describing subsets: the {DBpedia} case},
+	shorttitle = {Slicing linked data by extracting significant, self-describing subsets},
+	booktitle = {Current Trends in Web Engineering},
+	author = {Minno, M. and Palmisano, D. and Mostarda, M.},
+	year = {2010},
+	pages = {223–231},
+	file = {[PDF] von googlecode.com:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/JSK2JQXI/Minno et al. - 2010 - Slicing linked data by extracting significant, sel.pdf:application/pdf;Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/R29XG3K3/v113u52627248870.html:text/html}
+},
+
+@inproceedings{afraz_jaffri_uri_2008,
+	title = {{URI} Disambiguation in the Context of Linked Data},
+	url = {http://data.semanticweb.org/workshop/LDOW/2008/paper/5},
+	abstract = {The Linked Data initiative has given rise to an increasing number of {RDF} datasets, many of which are freely accessible online. These resources often arise as a result of database exports; however sufficient consideration may not be given to the unseen implications caused when they are used in the wider context of the Semantic Web. This paper investigates two popular resources, {DBLP} and {DBpedia}, and discusses whether the issues regarding identity management and co-reference resolution have been suitably addressed. We find that a large percentage of authors in {DBLP} have been conflated, and that disambiguation pages have been incorrectly linked using {owl:sameAs} within {DBpedia.} Systems for dealing with these issues are presented, and directions are given for future research.},
+	booktitle = {Linked Data on the Web {(LDOW2008)}},
+	author = {{{Afraz} Jaffri} and {{Hugh} Glaser} and {{Ian} Millard}},
+	year = {2008}
+},
+
+@article{antoine_isaac_europeana_2012,
+	title = {Europeana Linked Open Data – data.europeana.eu},
+	abstract = {Europeana is a single access point to millions of books, paintings, films, museum objects and archival records that have been digitized throughout Europe. The data.europeana.eu Linked Open Data pilot dataset contains open metadata on approximately 2.4 million texts, images, videos and sounds gathered by Europeana. All metadata are released under Creative Commons {CC0} and therefore dedicated to the public domain. The metadata follow the Europeana Data Model and clients can access data either by dereferencing {URIs}, downloading data dumps, or executing {SPARQL} queries against the dataset. They can also follow the links to external linked data sources, such as the Swedish cultural heritage aggregator {(SOCH)}, {GeoNames}, the {GEMET} thesaurus, or {DBPedia.} The latest dataset release has been published in February 2012.},
+	journal = {{SWJ}},
+	author = {{{Antoine} Isaac} and {{Bernhard} Haslhofer}},
+	year = {2012}
+},
+
+@inproceedings{iijima_implementing_2010,
+	title = {Implementing an Image Search System with Integrating Social Tags and {DBpedia.}},
+	booktitle = {{Knowledge-Based} and Intelligent Information and Engineering Systems},
+	author = {Iijima, Chie and Kimura, Makito and Yamaguchi, Takahira},
+	year = {2010}
+},
+
+@inproceedings{mendes_dbpedia_2011,
+	title = {{DBpedia} spotlight: shedding light on the web of documents},
+	shorttitle = {{DBpedia} spotlight},
+	booktitle = {Proceedings of the 7th International Conference on Semantic Systems},
+	author = {Mendes, P. N and Jakob, M. and {García-Silva}, A. and Bizer, C.},
+	year = {2011},
+	pages = {1–8},
+	file = {[PDF] von upm.es:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/TW5EVJ6J/Mendes et al. - 2011 - DBpedia spotlight shedding light on the web of do.pdf:application/pdf;Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/JFXF6R9E/citation.html:text/html}
+},
+
+@inproceedings{sebastian_hellmann_learning_2008,
+	title = {Learning of {OWL} Class Descriptions on Very Large Knowledge Bases},
+	url = {http://data.semanticweb.org/conference/iswc/2008/paper/poster_demo/83},
+	abstract = {The vision of the Semantic Web is to make use of semantic representations on the largest possible scale - the Web. Large knowledge bases such as {DBpedia}, {OpenCyc}, {GovTrack}, and others are emerging and are freely available as Linked Data and {SPARQL} endpoints. Exploring and analysing such knowledge bases is a significant hurdle for Semantic Web research and practice. As one possible direction for tackling this problem, we present an approach for obtaining complex class descriptions from objects in knowledge bases by using Machine Learning techniques. We describe how we leverage existing techniques to achieve scalability on large knowledge bases available as {SPARQL} endpoints or Linked Data. Our algorithms are made available in the open source {DL-Learner} project and can be used in real-life scenarios by Semantic Web applications.},
+	booktitle = {7th International Semantic Web Conference {(ISWC2008)}},
+	author = {{{Sebastian} Hellmann} and {{Jens} Lehmann} and {{Sören} Auer}},
+	year = {2008}
+},
+
+@inproceedings{augenstein_lodifier:_2012,
+	title = {{LODifier:} Generating Linked Data from Unstructured Text},
+	url = {http://data.semanticweb.org/conference/eswc/2012/paper/research/73},
+	abstract = {The automated extraction of information from text and its transformation into a formal description is an important goal of in both Semantic Web research and computational linguistics. The extracted information can be used for a variety of tasks such as ontology generation, question answering and information retrieval. {LODifier} is an approach that combines deep semantic analysis with named entity recognition, word-sense disambiguation and controlled Semantic Web vocabularies in order to extract named entities and relations between them from text and to convert them into an {RDF} representation which is linked to {DBpedia} and {WordNet.} We present the architecture of our tool and discuss design decisions made. Evaluations of the tool give clear evidence of its potential for tasks like information extraction and computing document similarity.},
+	booktitle = {9th Extended Semantic Web Conference {(ESWC2012)}},
+	author = {Augenstein, Isabelle and Pado, Sebastian and Rudolph, Sebastian},
+	year = {2012}
+},
+
+@techreport{mirizzi_using_2012,
+	title = {Using {DBpedia} for searching related terms in the {IT} domain},
+	author = {Mirizzi, R. and Di Noia, T. and Di Sciascio, E. and Ragone, A.},
+	year = {2012},
+	file = {[PDF] von poliba.it:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/MG568R5R/Mirizzi et al. - Using DBpedia for searching related terms in the I.pdf:application/pdf}
+},
+
+@inproceedings{meij_learning_2009,
+	title = {Learning Semantic Query Suggestions},
+	abstract = {An important application of semantic web technology is recognizing human-defined concepts in text. Query transformation is a strategy often used in search engines to derive queries that are able to return more useful search results than the original query and most popular search engines provide facilities that let users complete, specify, or reformulate their queries. We study the problem of semantic query suggestion, a special type of query transformation based on identifying semantic concepts contained in user queries. We use a feature-based approach in conjunction with supervised machine learning, augmenting term-based features with search history-based and concept-specific features. We apply our method to the task of linking queries from real-world query logs (the transaction logs of the Netherlands Institute for Sound and Vision) to the {DBpedia} knowledge base. We evaluate the utility of different machine learning algorithms, features, and feature types in identifying semantic concepts using a manually developed test bed and show significant improvements over an already high baseline. The resources developed for this paper, i.e., queries, human assessments, and extracted features, are available for download.},
+	booktitle = {8th International Semantic Web Conference {(ISWC2009)}},
+	author = {Meij, Edgar and Bron, Marc and Hollink, Laura and Huurnink, Bouke and Rijke, Maarten de},
+	year = {2009}
+},
+
+@inproceedings{stadler_update_2010,
+	title = {Update Strategies for {DBpedia} Live},
+	booktitle = {6th Workshop on Scripting and Development for the Semantic Web Colocated with {ESWC}},
+	author = {Stadler, C. and Martin, M. and Lehmann, J. and Hellmann, S.},
+	year = {2010},
+	file = {[PDF] von jenslehmann.org:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/5URSRUXM/Stadler et al. - 2010 - Update Strategies for DBpedia Live.pdf:application/pdf}
+},
+
+@inproceedings{lehmann_discovering_2007,
+	title = {Discovering Unknown Connections - the {DBpedia} Relationship Finder.},
+	booktitle = {{CSSW}},
+	author = {Lehmann, Jens and Schüppel, Jörg and Auer, Sören},
+	year = {2007}
+},
+
+@inproceedings{kasturi_compressed_2012,
+	title = {Compressed Data Structures for Annotated Web Search},
+	url = {http://data.semanticweb.org/conference/www/2012/paper/773},
+	abstract = {Entity relationship search at Web scale depends on adding dozens of entity annotations to each of billions of crawled pages and indexing the annotations at rates comparable to regular text indexing. Even small entity search benchmarks from {TREC} and {INEX} suggest that the entity catalog support thousands of entity types and tens to hundreds of millions of entities. The above targets raise many challenges, major ones being the design of highly compressed data structures in {RAM} for spotting and disambiguating entity mentions, and highly compressed disk-based annotation indices. These data structures cannot be readily built upon standard inverted indices. Here we present the fastest known Web scale entity annotator. Using a new workload-sensitive compressed multilevel map, we fit statistical disambiguation models for millions of entities within {1.1GB} of {RAM}, and spend about 0.6 core-milliseconds per disambiguation. In contrast, {DBPedia} Spotlight spends 158 milliseconds, Wikipedia Miner spends 21 milliseconds, and Zemanta spends 9.5 milliseconds. Our annotation indices use ideas from vertical databases to reduce storage by 30\%. On 40x8 cores with 40x3 disk spindles, we can annotate and index a billion Web pages with Wikipedia's two million entities and over 200,000 types in about a day. Index decompression and scan speed is comparable to {MG4J.}},
+	booktitle = {21st International World Wide Web Conference {(WWW2012)}},
+	author = {Kasturi, Sasidhar and Chakrabarti, Soumen and Ramakrishnan, Ganesh and Balakrishnan, Bharath and Saraf, Rohit},
+	year = {2012}
+},
+
+@article{kontokostas_internationalization_2012,
+	title = {Internationalization of Linked Data: The case of the Greek {DBpedia} edition},
+	shorttitle = {Internationalization of Linked Data},
+	journal = {J. Web Sem.},
+	author = {Kontokostas, D. and Bratsas, C. and Auer, S. and Hellmann, S. and Antoniou, I. and Metakides, G.},
+	year = {2012},
+	file = {[PDF] von aksw.org:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/RBRSD5WQ/Kontokostas et al. - 2012 - Internationalization of Linked Data The case of t.pdf:application/pdf;Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/KKIBK9ZA/S1570826812000030.html:text/html}
+},
+
+@inproceedings{kobilarov_media_2009,
+	title = {Media Meets Semantic Web - How the {BBC} Uses {DBpedia} and Linked Data to Make Connections.},
+	booktitle = {{ESWC}},
+	author = {Kobilarov, Georgi and Scott, Tom and Raimond, Yves and Oliver, Silver and Sizemore, Chris and Smethurst, Michael and Bizer, Christian and Lee, Robert},
+	year = {2009}
+},
+
+@inproceedings{markus_luczak-rosch_statistical_2011,
+	title = {Statistical Analysis of Web of Data Usage},
+	url = {http://data.semanticweb.org/workshop/evodyn/2011/paper/1},
+	abstract = {The Linked Data initiative gained momentum inside as well as outside of theresearch community. Thus, it is already an accepted research issue to investigate usage mining in the context ofthe Web of Data from various perspectives. We are currently working onan approach that applies such usage mining methods and analysis to support ontology and datasetmaintenance tasks. This paper presents one part of this work, namely a methodto detect errors or weaknesses within ontologies used for Linked Data populationbased on statistics and network visualizations. We contribute a detailed description of a log file preprocessing algorithm for Web of Data endpoints, a set of statistical measures that help to visualize different usage aspects, and an examplary analysis of one of the most prominent Linked Data set – {DBpedia} – aimed to show the feasibility and the potential of our approach.},
+	booktitle = {Joint Workshop on Knowledge Evolution and Ontology Dynamics {(EvoDyn2011)}},
+	author = {{{Markus} {Luczak-Rösch}} and {{Markus} Bischo}},
+	year = {2011}
+},
+
+@inproceedings{becker_dbpedia_2008-1,
+	title = {{DBpedia} mobile-a location-aware semantic web client},
+	volume = {2008},
+	booktitle = {Proceedings of the Semantic Web Challenge at {ISWC}},
+	author = {Becker, C. and Bizer, C.},
+	year = {2008},
+	file = {[PDF] von fu-berlin.de:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/ESPWE5BS/Becker und Bizer - 2008 - DBpedia mobile-a location-aware semantic web clien.pdf:application/pdf}
+},
+
+@inproceedings{passant_dbrec_2010,
+	title = {dbrec - Music Recommendations Using {DBpedia}},
+	abstract = {This paper describes the theoretical background and the implementation of dbrec, a music recommendation system built on top of {DBpedia}, offering recommendations for more than 39,000 bands and solo artists. We discuss the various challenges and lessons learnt while building it, providing relevant insights for people developing applications consuming Linked Data. Furthermore, we provide a user-centric evaluation of the system, notably by comparing it to last.fm.},
+	booktitle = {9th International Semantic Web Conference {(ISWC2010)}},
+	author = {Passant, Alexandre},
+	year = {2010}
+},
+
+@article{christophe_gueret_idswrapper:_2012,
+	title = {{IDSWrapper:} a Linked Data interface to the Institute for Development Studies’ data},
+	abstract = {This short paper provides a description of the {IDS} Wrapper used to expose the data from the Institute for Development Studies’ Knowledge Services as Linked Open Data. The {IDS} Wrapper provides Linked Data access to 35,000 research documents on development research as well as its medata. The {IDS} Wrapper links this metadata to a number of external sources: {DBpedia}, {GeoNames}, Lexvo and the {IATI} Linked Data set. We expect that the {IDS} data will play a central role in the larger web of Linked Data for global development.},
+	journal = {{SWJ}},
+	author = {{{Christophe} Guéret} and {{Victor} de Boer} and {{Duncan} Edwards} and {{Timothy} G. Davies}},
+	year = {2012}
+},
+
+@inproceedings{levandoski_rdf_2009,
+	title = {{RDF} {Data-Centric} Storage},
+	booktitle = {{ICWS}},
+	author = {Levandoski, Justin J. and Mokbel, Mohamed F.},
+	year = {2009}
+},
+
+@inproceedings{morsey_dbpedia_2011,
+	title = {{DBpedia} {SPARQL} Benchmark - Performance Assessment with Real Queries on Real Data.},
+	booktitle = {International Semantic Web Conference (1)},
+	author = {Morsey, Mohamed and Lehmann, Jens and Auer, Sören and Ngomo, {Axel-Cyrille} Ngonga},
+	year = {2011}
+},
+
+@inproceedings{bratsas_semantic_2012,
+	title = {Semantic Web Game Based Learning: An I18n approach with Greek {DBpedia}},
+	shorttitle = {Semantic Web Game Based Learning},
+	booktitle = {21st International World Wide Web Conference {(WWW2012)}},
+	author = {Bratsas, C. and Chrysou, D. E and Eftychiadou, A. and Kontokostas, D. and Bamidis, P. and Antoniou, I.},
+	year = {2012},
+	file = {[PDF] von ceur-ws.org:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/NCH7NDMS/Bratsas et al. - Semantic Web Game Based Learning An I18n approach.pdf:application/pdf}
+},
+
+@inproceedings{yanti_idaya_aspura_integrating_2010,
+	title = {Integrating {DBpedia} in multi-modality ontology news image retrieval},
+	booktitle = {Information and Communication Technology for the Muslim World {(ICT4M)}, 2010 International Conference on},
+	author = {Yanti Idaya Aspura, M. K. and Azman, S.},
+	year = {2010},
+	pages = {E4–E8},
+	file = {Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/TVZ8TB5Z/login.html:text/html}
+},
+
+@inproceedings{bizer_dbpediaquerying_2007,
+	title = {{DBpedia—Querying} Wikipedia like a database},
+	booktitle = {Developers track presentation at the 16th international conference on World Wide Web, {WWW}},
+	author = {Bizer, C. and Auer, S. and Kobilarov, G. and Lehmann, J. and Cyganiak, R.},
+	year = {2007},
+	pages = {8–12}
+},
+
+@inproceedings{mirizzi_ranking_2010,
+	title = {Ranking the Linked Data: The Case of {DBpedia.}},
+	booktitle = {{ICWE}},
+	author = {Mirizzi, Roberto and Ragone, Azzurra and Noia, Tommaso Di and Sciascio, Eugenio Di},
+	year = {2010}
+},
+
+@phdthesis{becker_rdf_2008,
+	title = {{RDF} Store Benchmarks with {DBpedia} comparing Virtuoso, {SDB} and Sesame},
+	author = {Becker, C.},
+	year = {2008}
+},
+
+@incollection{konyk_chemical_2008,
+	title = {Chemical Knowledge for the Semantic Web.},
+	abstract = {With over 80 file formats to represent various chemical attributes, the conversion between one format and another is invariably lossy due to informal specifications. In contrast, the use of a formal knowledge representation language such as the Web Ontology Language {(OWL)} enables precise molecular descriptions that can be reasoned about in a logically valid manner. In this paper, we describe a chemical knowledge representation using {OWL.} We demonstrate its utility in querying a new drug repository created from {PubChem}, {DrugBank} and {DBpedia.} By leveraging Semantic Web technologies, it becomes possible to integrate chemical information at differing levels of detail and granularity, opening new avenues for life science knowledge discovery.},
+	booktitle = {Data Integration in the Life Science},
+	author = {Konyk, Mykola and Battista, Alexander De Leon and Dumontier, Michel},
+	year = {2008}
+},
+
+@inproceedings{ibanez_synchronizing_2012,
+	title = {Synchronizing semantic stores with Commutative Replicated Data Types},
+	url = {http://data.semanticweb.org/workshop/swcs/2012/paper/13},
+	abstract = {Social semantic web technologies led to huge amounts of data and information being available. The production of knowledge from this information is challenging, and ma- jor efforts, like {DBpedia}, has been done to make it reality. Linked data provides interconnection between this informa- tion, extending the scope of the knowledge production. The knowledge construction between decentralized sources in the web follows a co-evolution scheme, where knowledge’s generated collaboratively and continuously. Sources are also autonomous, meaning that they can use and publish only the information they want. The updating of sources with this criteria is intimately re- lated with the problem of synchronization, and the consis- tency between all the replicas managed. Recently, a new family of algorithms called Commutative Replicated Data Types have emerged for ensuring eventual consistency in highly dynamic environments. In this paper, we define {SU-Set}, a {CRDT} for {RDF-Graph} that supports {SPARQL} Update 1.1 operations.},
+	booktitle = {{SWCS:} Semantic Web Collaborative Spaces {(SWCS} 2012)},
+	author = {Ibáñez, Luis Daniel and {Skaf-Molli}, Hala and Molli, Pascal and Corby, Olivier},
+	year = {2012}
+},
+
+@inproceedings{hellmann_dbpedia_2009,
+	title = {{DBpedia} Live Extraction},
+	booktitle = {On the Move to Meaningful Internet Systems: {OTM} 2009},
+	author = {Hellmann, Sebastian and Stadler, Claus and Lehmann, Jens and Auer, Sören},
+	year = {2009}
+},
+
+@inproceedings{lama_semantic_2011,
+	title = {Semantic Linking of a Learning Object Repository to {DBpedia}},
+	booktitle = {Advanced Learning Technologies {(ICALT)}, 2011 11th {IEEE} International Conference on},
+	author = {Lama, M. and Vidal, J. C and Garcia, E. O and Bugarín, A. and Barro, S.},
+	year = {2011},
+	pages = {460–464},
+	file = {Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/ZZZ9UWDT/login.html:text/html}
+},
+
+@inproceedings{raimond_automated_2012,
+	title = {Automated interlinking of speech radio archives},
+	url = {http://data.semanticweb.org/workshop/ldow/2012/paper/15},
+	abstract = {The {BBC} is currently tagging programmes manually, using {DBpedia} as a source of tag identifiers, and a list of suggested tags extracted from their synopsis. These tags are then used to help navigation and topic-based search of {BBC} programmes. However, given the very large number of programmes available in the archive, most of them having very little metadata attached to them, we need a way of automatically assigning tags to programmes. We describe a framework to do so, using speech recognition, text processing and concept tagging techniques. We evaluate this framework against manually applied tags, and compare it with related work. We find that this framework is good enough to bootstrap the interlinking process of archived content.},
+	booktitle = {{LDOW} 2012 : linked Data on the web {(LDOW2012)}},
+	author = {Raimond, Yves and Lowis, Chris},
+	year = {2012}
+},
+
+@article{morsey_dbpedia_2012,
+	title = {{DBpedia} and the Live Extraction of Structured Data from Wikipedia},
+	volume = {46},
+	number = {2},
+	journal = {Program: electronic library and information systems},
+	author = {Morsey, M. and Lehmann, J. and Auer, S. and Stadler, C. and Hellmann, S.},
+	year = {2012},
+	pages = {2–2},
+	file = {Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/AB4ZCEFR/journals.html:text/html}
+},
+
+@inproceedings{nuzzolese_type_2012,
+	title = {Type inference through the analysis of Wikipedia links},
+	url = {http://data.semanticweb.org/workshop/ldow/2012/paper/30},
+	abstract = {{DBpedia} contains millions of untyped entities, either if we consider the native {DBpedia} ontology, or Yago plus {WordNet.} Is it possible to automatically classify those entities? Based on previous work on wikilink invariances, we wondered if wikilinks convey a knowledge rich enough for their {classification.In} this paper we give three contributions. Concerning the {DBpedia} link structure, we describe some measurements and notice both problems (e.g. the bias that could be induced by the incomplete ontological coverage of the {DBpedia} ontology), and potentials existing in current type coverage. Concerning classification, we present two techniques that exploit wikilinks, one based on induction from machine learning techniques, and the other on abduction. Finally, we discuss the limited results of classification, which confirmed our fears expressed in the description of general figures from the measurement. We also suggest some new possible approaches to entity classification that could be taken, based on more solid grounds.},
+	booktitle = {{LDOW} 2012 : linked Data on the web {(LDOW2012)}},
+	author = {Nuzzolese, Andrea and Gangemi, Aldo and Presutti, Valentina and Ciancarini, Paolo},
+	year = {2012}
+},
+
+@article{szczuka_semantic_2012,
+	title = {Semantic Clustering of Scientific Articles with Use of {DBpedia} Knowledge Base},
+	abstract = {A case study of semantic clustering of scientific articles related to Rough Sets is presented. The proposed method groups the documents on the basis of their content and with assistance of {DBpedia} knowledge base. The text corpus is first treated with Natural Language Processing tools in order to produce vector representations of the content and then matched against a collection of concepts retrieved from {DBpedia.} As a result, a new representation is constructed that better reflects the semantics of the texts. With this new representation, the documents are hierarchically clustered in order to form partition of papers that share semantic relatedness. The steps in textual data preparation, utilization of {DBpedia} and clustering are explained and illustrated with experimental results. Assessment of clustering quality by human experts and by comparison to traditional approach is presented.},
+	journal = {Intelligent Tools for Building a Scientific Information Platform},
+	author = {Szczuka, M. and Janusz, A. and Herba, K.},
+	year = {2012},
+	pages = {61–76},
+	file = {Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/UUN3NF27/h8107ju516w18498.html:text/html}
+},
+
+@inproceedings{choudhury_enrichment_2009,
+	title = {Enrichment and Ranking of the {YouTube} Tag Space and Integration with the Linked Data Cloud.},
+	abstract = {The increase of personal digital cameras with video functionality and video-enabled camera phones has increased the amount of user-generated videos on the Web. People are spending more and more time viewing online videos as a major source of entertainment and infotainment. Social websites allow users to assign shared free-form tags to user-generated multimedia resources, thus generating annotations for objects with a minimum amount of effort. Tagging allows communities to organize their multimedia items into browseable sets, but these tags may be poorly chosen and related tags may be omitted. Current techniques to retrieve, integrate and present this media to users are deficient and could do with improvement. In this paper we describe a framework for semantic enrichment, ranking and integration of web video tags using Semantic Web technologies. Semantic enrichment of folksonomies can bridge the gap between the uncontrolled and flat structures typically found in user-generated content and structures provided by the Semantic Web. The enhancement of tag spaces with semantics has been accomplished through two major tasks: (1) a tag space expansion and ranking step; and (2) through concept matching and integration with the Linked Data cloud. We have explored social, temporal and spatial contexts to enrich and extend the existing tag space. The resulting semantic tag space is modelled via a local graph based on co-occurrence distances for ranking. A ranked tag list is mapped and integrated with the Linked Data cloud through the {DBpedia} resource repository. Multi-dimensional context filtering for tag expansion means that tag ranking is much easier and it provides less ambiguous tag to concept matching.},
+	booktitle = {8th International Semantic Web Conference {(ISWC2009)}},
+	author = {Choudhury, Smitashree and Breslin, John G. and Passant, Alexandre},
+	year = {2009}
+},
+
+@article{bizer_dbpedia_2009,
+	title = {{DBpedia} - A crystallization point for the Web of Data.},
+	journal = {J. Web Sem.},
+	author = {Bizer, Christian and Lehmann, Jens and Kobilarov, Georgi and Auer, Sören and Becker, Christian and Cyganiak, Richard and Hellmann, Sebastian},
+	year = {2009},
+	file = {[PDF] von uga.edu:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/Z3C4AW9E/Bizer et al. - 2009 - DBpedia-A crystallization point for the Web of Dat.pdf:application/pdf;Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/HNUAEF4S/S1570826809000225.html:text/html}
+},
+
+@inproceedings{wang_ce2:_2008,
+	title = {{CE2:} towards a large scale hybrid search engine with integrated ranking support.},
+	booktitle = {Proceedings of the 17th Conference on Information and Knowledge Management {(CIKM'08)}},
+	author = {Wang, Haofen and Tran, Thanh and Liu, Chang},
+	year = {2008}
+},
+
+@inproceedings{yahya_deep_2012,
+	title = {Deep Answers for Naturally Asked Questions on the Web of Data},
+	url = {http://data.semanticweb.org/conference/www/2012/demo/41},
+	abstract = {We present {DEANNA}, a framework for natural language question answering over structured knowledge bases. Given a natural language question, {DEANNA} translates questions into a {SPARQL-like} structured query language that can be evaluated over knowledge bases such as Yago, Dbpedia, Freebase, or other Linked Data {sources.DEANNA} analyzes questions and aims to map verbal phrases to relations and noun phrases to either individual entities or semantic classes. Importantly, it judiciously generates variables for target entities or classes to express joins between multiple triple {patterns.In} contrast to prior work on {QA}, we leverage the semantic type system for entities and we use constraints in jointly mapping the constituents of the question to relations, classes, and entities. We demonstrate the capabilities and interface of {DEANNA}, which allows advanced users to influence the translation process and view how the different components interact to produce the final result.},
+	booktitle = {21st International World Wide Web Conference {(WWW2012)}},
+	author = {Yahya, Mohamed and Berberich, Klaus and Elbassuoni, Shady and Ramanath, Maya and Tresp, Volker and Weikum, Gerhard},
+	year = {2012}
+},
+
+@inproceedings{atzori_swipe:_2012,
+	title = {{SWiPE:} Searching Wikipedia By Example},
+	url = {http://data.semanticweb.org/conference/www/2012/demo/53},
+	abstract = {A novel method is demonstrated that allows semantic and well-structured knowledge bases (such as {DBpedia)} to be easily queried directly from Wikipedia’s pages. Using Swipe, naive users with no knowledge of {RDF} triples and sparql can easily query {DBpedia} with powerful questions such as: {“Who} are the {U.S.} presidents who took office when they were 55-year old or younger, during the last 60 years”, or {“Find} the town in California with less than 10 thousand people”. This is accomplished by a novel Search by Example {(SBE)} approach where a user can enter the query conditions directly on the Infobox of a Wikipedia page. In fact, Swipe activates various fields of Wikipedia to allow users to enter query conditions, and then uses these conditions to generate equivalent sparql queries and execute them on {DBpedia.} Finally, Swipe returns the query results in a form that is conducive to query refinements and further explorations. Swipe’s {SBE} approach makes semistructured documents queryable in an intuitive and user-friendly way and, through Wikipedia, delivers the benefits of querying and exploring large knowledge bases to all Web users.},
+	booktitle = {21st International World Wide Web Conference {(WWW2012)}},
+	author = {Atzori, Maurizio and Zaniolo, Carlo},
+	year = {2012}
+},
+
+@inproceedings{heim_relfinder:_2009,
+	title = {{RelFinder:} Revealing Relationships in {RDF} Knowledge Bases.},
+	booktitle = {{SAMT}},
+	author = {Heim, Philipp and Hellmann, Sebastian and Lehmann, Jens and Lohmann, Steffen and Stegemann, Timo},
+	year = {2009}
+},
+
+@article{liao_building_2009,
+	title = {Building {“Bag} of Conception” Model Based on {DBpedia}},
+	journal = {Advances in Software Engineering},
+	author = {Liao, J. and Bai, R.},
+	year = {2009},
+	pages = {66–78},
+	file = {Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/63QG35Z2/u8k2512130113j51.html:text/html}
+},
+
+@inproceedings{lasek_models_2012,
+	title = {Models for Efficient Semantic Data Storage Demonstrated on Concrete Example of {DBpedia}},
+	author = {Lašek, I. and Vojtáš, P.},
+	year = {2012},
+	file = {[PDF] von ceur-ws.org:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/IGXNPR27/Lašek und Vojtáš - Models for Efficient Semantic Data Storage Demonst.pdf:application/pdf}
+},
+
+@article{orlandi_modelling_2011,
+	title = {Modelling provenance of {DBpedia} resources using Wikipedia contributions.},
+	journal = {J. Web Sem.},
+	author = {Orlandi, Fabrizio and Passant, Alexandre},
+	year = {2011}
+},
+
+@inproceedings{voelker_statistical_2011,
+	title = {Statistical Schema Induction},
+	url = {http://data.semanticweb.org/conference/eswc/2011/paper/linked-open-data/8},
+	abstract = {While the realization of the Semantic Web as once envisioned by Tim {Berners-Lee} remains in a distant future, the Web of Data has already become a reality. Billions of {RDF} statements out there on the Internet, facts about a variety of different domains, are ready to be used by semantic applications. Some of these applications, however, crucially hinge on the availability of expressive schemas suitable for logical inference that yields non-trivial conclusions. In this paper, we present a statistical approach to the induction of expressive schemas from large {RDF} repositories. We describe in detail the implementation of this approach and report on an evaluation that we conducted using several data sets including {DBpedia.}},
+	booktitle = {8th Extended Semantic Web Conference {(ESWC2011)}},
+	author = {Voelker, Johanna and Niepert, Mathias},
+	year = {2011}
+},
+
+@inproceedings{lehmann_dbpedia_2008,
+	title = {{DBpedia} Navigator},
+	booktitle = {{ISWC} Billion Triple Challenge},
+	author = {Lehmann, J. and Knappe, S.},
+	year = {2008},
+	file = {[PDF] von jenslehmann.org:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/FMNWFVAN/Lehmann und Knappe - 2008 - DBpedia Navigator.pdf:application/pdf}
+},
+
+@inproceedings{fabian_abel_impact_2010,
+	title = {The Impact of Multifaceted Tagging on Learning Tag Relations and Search},
+	url = {http://data.semanticweb.org/conference/eswc/2010/paper/social_web/4},
+	abstract = {In this paper we present a model for multifaceted tagging, i.e. tagging enriched with contextual information. We present {TagMe!}, a social tagging front-end for Flickr images, that provides multifaceted tagging functionality: It enables users to attach tag assignments to a specific area within an image and to categorize tag assignments. Moreover, {TagMe!} automatically maps tags and categories to {DBpedia} {URIs} to clearly define the meaning of freely-chosen words. Our experiments reveal the benefits of those additional tagging facets. For example, the exploitation of those facets significantly improves the performance of {FolkRank-based} search. Further, we demonstrate the benefits of {TagMe!} tagging facets for learning semantics within folksonomies.},
+	booktitle = {7th Extended Semantic Web Conference {(ESWC2010)}},
+	author = {{{Fabian} Abel} and {{Nicola} Henze} and {{Ricardo} Kawase} and {{Daniel} Krause}},
+	year = {2010}
+},
+
+@inproceedings{mendes_dbpedia:_2012,
+	title = {{DBpedia:} A Multilingual {Cross-Domain} Knowledge Base},
+	shorttitle = {{DBpedia}},
+	booktitle = {Proceedings of the International Conference on Language Resources and Evaluation},
+	author = {Mendes, P. N and Jakob, M. and Bizer, C.},
+	year = {2012},
+	file = {[PDF] von fu-berlin.de:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/HQPPQ4JE/Mendes et al. - DBpedia A Multilingual Cross-Domain Knowledge Bas.pdf:application/pdf}
+},
+
+@phdthesis{zehetner_social_2010,
+	title = {Social network analysis in {DBpedia}},
+	school = {uniwien},
+	author = {Zehetner, M. A},
+	year = {2010},
+	file = {[PDF] von univie.ac.at:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/MB9TJJCN/Zehetner - 2010 - Social network analysis in DBpedia.pdf:application/pdf;Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/EZCHTQUN/12285.html:text/html}
+},
+
+@inproceedings{mendes_evaluating_2011,
+	title = {Evaluating {DBpedia} Spotlight for the {TAC-KBP} Entity Linking Task},
+	booktitle = {Proceedings of the {TACKBP} 2011 Workshop},
+	author = {Mendes, P. N and Daiber, J. and Jakob, M. and Bizer, C.},
+	year = {2011},
+	file = {[PDF] von fu-berlin.de:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/I5PZKGDJ/Mendes et al. - 2011 - Evaluating DBpedia Spotlight for the TAC-KBP Entit.pdf:application/pdf}
+},
+
+@inproceedings{perez-aguera_inex+_2010,
+	title = {{INEX+} {DBPEDIA:} a corpus for semantic search evaluation},
+	shorttitle = {{INEX+} {DBPEDIA}},
+	booktitle = {Proceedings of the 19th international conference on World wide web},
+	author = {{Perez-Aguera}, J. R and Arroyo, J. and Greenberg, J. and {Perez-Iglesias}, J. and Fresno, V.},
+	year = {2010},
+	pages = {1161–1162},
+	file = {[PDF] von ethz.ch:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/KBU5NJN4/Perez-Aguera et al. - 2010 - INEX+ DBPEDIA a corpus for semantic search evalua.pdf:application/pdf;Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/R2AKZNV8/citation.html:text/html}
+},
+
+@inproceedings{charalampos_bratsas_dbpedia_2011,
+	title = {{DBpedia} internationalization - a graphical tool for I18n infobox-to-ontology mappings},
+	url = {http://data.semanticweb.org/conference/iswc/2011/paper/poster-demo/36},
+	abstract = {During the past two decades, the use of the Web has spread across multiple countries and cultures. While the Semantic Web is already served in many languages, we are still facing challenges concerning its internationalization. The {DBpedia} project, a community eﬀort to extract structured information from Wikipedia, is already supporting multiple languages. This paper presents a graphical tool for creating internationalized mappings for {DBpedia.}},
+	booktitle = {10th International Semantic Web Conference {(ISWC2011)}},
+	author = {{{Charalampos} Bratsas} and {{Lazaros} Ioannidis} and {{Lazaros} Ioannidis} and {{Sören} Auer} and {{Christian} Bizer} and {{Sebastian} Hellmann} and {{Ioannis} Antoniou}},
+	year = {2011},
+	file = {[PDF] von semanticweb.org:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/I52DN4EW/Bratsas et al. - DBpedia internationalization-a graphical tool for .pdf:application/pdf}
+},
+
+@article{schenk_semaplorer_2009,
+	title = {{SemaPlorer} - Interactive semantic exploration of data and media based on a federated cloud infrastructure.},
+	journal = {J. Web Sem.},
+	author = {Schenk, Simon and Saathoff, Carsten and Staab, Steffen and Scherp, Ansgar},
+	year = {2009}
+},
+
+@inproceedings{heath_revyu.com:_2007,
+	title = {Revyu.com: A Reviewing and Rating Site for the Web of Data.},
+	booktitle = {{ISWC/ASWC}},
+	author = {Heath, Tom and Motta, Enrico},
+	year = {2007}
+},
+
+@inproceedings{sah_dynamic_2010,
+	title = {Dynamic linking and personalization on web.},
+	abstract = {Web browsing is a complex activity and users need to be supported with additional guidance. In our research, we developed a novel Semantic Web browser, which is called {SemWeB}, in order to assist Web browsing using linked data and Adaptive Hypermedia {(AH).} {SemWeB} is an extension to the Mozilla Firefox Web browser. {SemWeB} adds a semantic layer to Web documents: it annotates Web pages using a linked data domain (i.e. {DBpedia)} and creates context-based hyperlinks on Web pages to guide users to relevant pages. In addition, the information presented to the user is personalized based on a novel behavior based user model. We evaluated our approach on {DBpedia}, {DBLP} and {ECS} {(University} of Southampton) linked data domains. Our study showed that {SemWeB} provides a new way of supporting dynamic linking and personalization on Web documents using different linked data domains.},
+	booktitle = {Proceedings of the 2010 {ACM} Symposium on Applied Computing},
+	author = {Sah, Melike and Hall, Wendy and Roure, David De},
+	year = {2010}
+},
+
+@article{victor_de_boer_amsterdam_2012,
+	title = {Amsterdam Museum Linked Open Data},
+	abstract = {In this document we describe the Amsterdam Museum Linked Open Data set. The dataset is a five-star Linked Data representation and comprises the entire collection of the Amsterdam Museum consisting of more than 70.000 object descriptions. Furthermore, the institution’s thesaurus and person authority files used in the object metadata are included in the Linked Data set. The data is mapped to the Europeana Data Model, utilizing Dublin Core, {SKOS}, {RDA-group2} elements and the {OAI-ORE} model to represent the museum data. Vocabulary concepts are mapped to Geonames and {DBpedia.} The two main contributions of this dataset are the inclusion of internal vocabularies and the fact that the complexity of the original dataset is retained.},
+	journal = {{SWJ}},
+	author = {{{Victor} de Boer} and {{Jan} Wielemaker} and {{Judith} van Gent} and {{Marijke} Oosterbroek} and {{Michiel} Hildebrand} and {{Antoine} Isaac} and {{Jacco} van Ossenbruggen} and {{Guus} Schreiber}},
+	year = {2012}
+},
+
+@inproceedings{slabbekoorn_domain-aware_2011,
+	title = {Domain-aware Matching of Events to {DBpedia}},
+	volume = {779},
+	booktitle = {Proceedings of the Workhop on Detection, Representation, and Exploitation of Events in the Semantic Web {(DeRiVE} 2011), workshop in conjunction with the 10th International Semantic Web Conference 2011 {(ISWC} 2011)\$}\$},
+	author = {Slabbekoorn, K. and Hollink, L. and Houben, G. J},
+	year = {2011},
+	pages = {117–121},
+	file = {[PDF] von uzh.ch:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/GU8SMN5J/Slabbekoorn et al. - 2011 - Domain-aware Matching of Events to DBpedia$}$.pdf:application/pdf}
+},
+
+@article{meij_mapping_2011,
+	title = {Mapping queries to the Linking Open Data cloud: A case study using {DBpedia.}},
+	journal = {J. Web Sem.},
+	author = {Meij, Edgar and Bron, Marc and Hollink, Laura and Huurnink, Bouke and Rijke, Maarten de},
+	year = {2011}
+},
+
+@article{chan_vispedia:_2008,
+	title = {Vispedia: Interactive Visual Exploration of Wikipedia Data via {Search-Based} Integration.},
+	journal = {{IEEE} Trans. Vis. Comput. Graph.},
+	author = {Chan, Bryan and Wu, Leslie and Talbot, Justin and Cammarano, Mike and Hanrahan, Pat},
+	year = {2008}
+},
+
+@article{becker_exploring_2009,
+	title = {Exploring the geospatial semantic web with dbpedia mobile},
+	volume = {7},
+	number = {4},
+	journal = {J. Web Sem.},
+	author = {Becker, C. and Bizer, C.},
+	year = {2009},
+	pages = {278–286},
+	file = {Snapshot:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/KVDW9CIV/S1570826809000468.html:text/html}
+},
+
+@inproceedings{weikum_harvesting_2009,
+	title = {Harvesting, searching, and ranking knowledge on the web: invited talk.},
+	booktitle = {{WSDM}},
+	author = {Weikum, Gerhard},
+	year = {2009}
+},
+
+@inproceedings{kurz_adding_2012,
+	title = {Adding Wings to Red Bull Media: Search and Display semantically enhanced Video Fragments},
+	url = {http://data.semanticweb.org/conference/www/2012/demo/65},
+	abstract = {The Linked Data movement with the aims of publishing and interconnecting machine readable data has originated in the last decade. Although the set of (open) data sources is rapidly growing, the integration of multimedia in this Web of Data is still at a very early stage. This paper describes, how arbitrary video content and metadata can be processed to identify meaningful linking partners for video fragments - and thus create a web of linked media. The video test-set for our demonstrator is part of the Red Bull Content Pool and confined to the Cliff Diving domain. The candidate set of possible link targets is a combination of a Red Bull thesaurus, information about divers from www.redbull.com and concepts from {DBPedia.} The demo includes both a semantic search on videos and video fragments and a player for videos with semantic enhancements.},
+	booktitle = {21st International World Wide Web Conference {(WWW2012)}},
+	author = {Kurz, Thomas and Schaffert, Sebastian and Fernandez, Manuel and Güntner, Georg},
+	year = {2012}
+},
+
+@inproceedings{weikum_information_2010,
+	title = {From information to knowledge: harvesting entities and relationships from web sources.},
+	booktitle = {{PODS}},
+	author = {Weikum, Gerhard and Theobald, Martin},
+	year = {2010}
+},
+
+@article{guo_integrating_2011,
+	title = {Integrating Knowledge of City Entities Extracted from {DBpedia} and {GeoLite} into the {EKOSS} Failure Cases Repository to Enhance Semantic Search Capabilities},
+	journal = {ijcisim},
+	author = {Guo, W. and Kraines, S. B},
+	year = {2011},
+	file = {[PDF] von mirlabs.org:/home/blueyersey/.zotero/zotero/p1tjz3sd.default/zotero/storage/9P6BAHCI/Guo und Kraines - Integrating Knowledge of City Entities Extracted f.pdf:application/pdf}
+},
+
+@inproceedings{raimond_automated_2012-1,
+	title = {Automated semantic tagging of speech audio},
+	url = {http://data.semanticweb.org/conference/www/2012/demo/87},
+	abstract = {The {BBC} is currently tagging programmes manually, using {DBpedia} as a source of tag identifiers, and a list of sug- gested tags extracted from their synopsis. These tags are then used to help navigation and topic-based search of {BBC} programmes. However, given the very large number of pro- grammes available in the archive, most of them having very little metadata attached to them, we need a way of automat- ically assigning tags to programmes. We describe a frame- work to do so, using speech recognition, text processing and concept tagging techniques. We evaluate this framework against manually applied tags, and compare it with related work. We find that this frame- work has better performances than related work for this task, and is good enough to bootstrap the tagging process of archived content. We describe Tellytopic, an application us- ing automatically extracted tags to aid discovery of archive content.},
+	booktitle = {21st International World Wide Web Conference {(WWW2012)}},
+	author = {Raimond, Yves and Lowis, Chris and Tweed, Jonathan and Hodgson, Roderick},
+	year = {2012}
+},
+
+@inproceedings{wohlgenannt_integrating_2009,
+	title = {Integrating Structural Data into Methods for Labeling Relations in Domain Ontologies.},
+	booktitle = {20th International Conference on Database and Expert Systems Application},
+	author = {Wohlgenannt, Gerhard and Weichselbraun, Albert and Scharl, Arno},
+	year = {2009}
+}
