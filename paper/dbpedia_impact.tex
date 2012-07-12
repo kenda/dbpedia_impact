@@ -53,7 +53,7 @@ introduced several analyses and a comparison to the Wikipedia project.
 
   In 2011 there was a large survey to collect journal articles and conference
   paper concerning the Wikipedia project. The findings of this survey were published
-  and partly analyzed\footnote{http://en.wikipedia.org/wiki/Wikipedia:Academic$_{\mathrm{studies}}$$_{\mathrm{of}}$$_{\mathrm{Wikipedia}}$ }. Such an analysis showed that the number of
+  and partly analyzed\footnote{http://en.wikipedia.org/wiki/Wikipedia:Academic\_{}studies\_{}of\_{}Wikipedia }. Such an analysis showed that the number of
   conference paper decreased constantly from five years after the founding
   while the number of journal articles still grows.
 
@@ -126,16 +126,16 @@ introduced several analyses and a comparison to the Wikipedia project.
      journals. These informations linked together should enable a complete view
      of the data. In comparison to Google Scholar this also allows larger search
      possibilities. Besides the frontend search Arnetminer also provides a REST
-     interface\footnote{http://arnetminer.org/RESTful$_{\mathrm{service}}$ }. So it is possible to search the publications by title. For
+     interface\footnote{http://arnetminer.org/RESTful\_{}service }. So it is possible to search the publications by title. For
      better processing the retrieved data was converted from JSON to Bibtex by a
-     small script\footnote{https://raw.github.com/kenda/dbpedia$_{\mathrm{impact}}$/master/scripts/get$_{\mathrm{arnetminer}}$.py }.
+     small script\footnote{https://raw.github.com/kenda/dbpedia\_{}impact/master/scripts/get\_{}arnetminer.py }.
 \item \textbf{Semantic Web Conference Corpus}
 
      The Semantic Web Conference Corpus\footnote{http://data.semanticweb.org } provides numerous informations about
      conferences and the presented talks belonging to the Semantic Web
      topic. This site also offers a SPARQL endpoint which was used to get the
      relevant publications for this paper. The query retrieved all publications
-     with the term ``dbpedia'' in the title or in the abstract. A script\footnote{https://raw.github.com/kenda/dbpedia$_{\mathrm{impact}}$/master/scripts/get$_{\mathrm{semweb}}$$_{\mathrm{org}}$.sh } got
+     with the term ``dbpedia'' in the title or in the abstract. A script\footnote{https://raw.github.com/kenda/dbpedia\_{}impact/master/scripts/get\_{}semweb\_{}org.sh } got
      the resulting URIs and scraped the corresponding html view for the Bibtex
      representation of the entry.
 \item \textbf{manually}
@@ -163,7 +163,7 @@ introduced several analyses and a comparison to the Wikipedia project.
    publication date or conference names.
 
    The cleaned data was exported from the Zotero database to the csv format by a
-   SQL script\footnote{https://raw.github.com/kenda/dbpedia$_{\mathrm{impact}}$/master/scripts/zotero$_{\mathrm{query}}$.sql }. This csv data is the base for the analyses which are done by
+   SQL script\footnote{https://raw.github.com/kenda/dbpedia\_{}impact/master/scripts/zotero\_{}query.sql }. This csv data is the base for the analyses which are done by
    Gnu R\footnote{http://www.r-project.org/ }. The main analyses provided in this paper are:
 \begin{itemize}
 \item total number of journal articles / conference paper by year
@@ -242,15 +242,15 @@ introduced several analyses and a comparison to the Wikipedia project.
    occured in the title or abstract.
 
 \begin{table}[htb]
-\caption{\centering Compared number of publications at ESWC, ISWC, WWW in 2011 \\dbpedia$_1$ representing the occurence of ``dbpedia'' in full paper \\dbpedia$_2$ representing the occurence of ``dbpedia'' in title or abstract} \label{tab:vergleich}
+\caption{\centering Compared number of publications at ESWC, ISWC, WWW in 2011 \\dbpedia$_{1}$ representing the occurence of ``dbpedia'' in full paper \\dbpedia$_{2}$ representing the occurence of ``dbpedia'' in title or abstract} \label{tab:vergleich}
 \begin{center}
 \begin{tabular}{llll}
 \hline
-              &  ESWC (\%)  &  ISWC (\%)  &  WWW (\%)   \\
+                &  ESWC (\%)  &  ISWC (\%)  &  WWW (\%)   \\
 \hline
- total        &  57 (100)   &  163 (100)  &  220 (100)  \\
- dbpedia$_1$  &  N/A        &  14 (8.59)  &  12 (5.45)  \\
- dbpedia$_2$  &  4 (7.02)   &  9 (5.52)   &  1 (0.45)   \\
+ total          &  57 (100)   &  163 (100)  &  220 (100)  \\
+ dbpedia$_{1}$  &  N/A        &  14 (8.59)  &  12 (5.45)  \\
+ dbpedia$_{2}$  &  4 (7.02)   &  9 (5.52)   &  1 (0.45)   \\
 \hline
 \end{tabular}
 \end{center}
@@ -258,7 +258,7 @@ introduced several analyses and a comparison to the Wikipedia project.
 
 
    Therefore DBpedia was mentioned in 8.59\% and 5.45\% of the publications at
-   ISWC and WWW somewhere in the paper. The highest rate of the dbpedia$_2$
+   ISWC and WWW somewhere in the paper. The highest rate of the dbpedia$_{2}$
    criteria was reached by ESWC with 7.02\% and a number of four papers. There
    were five more papers at ISWC, however this led to a lower percentage
    (5.52). The lowest percentage is reached by WWW with 0.45\%.

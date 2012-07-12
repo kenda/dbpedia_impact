@@ -1,8 +1,8 @@
 #+TITLE:     Academic impact of DBpedia
 #+AUTHOR:    Marcus Nitzschke
-#+DATE:      12.07.2012
+#+DATE:      14.06.2012
 #+LANGUAGE:  en
-#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc ^:{}
 #+EXPORT_SELECT_TAGS: export
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+LaTeX_CLASS: lni
@@ -251,18 +251,18 @@ introduced several analyses and a comparison to the Wikipedia project.
    occured somewhere in the paper and the number of publications where the term
    occured in the title or abstract.
 
-   #+CAPTION: \centering Compared number of publications at ESWC, ISWC, WWW in 2011 \\dbpedia_1 representing the occurence of "dbpedia" in full paper \\dbpedia_2 representing the occurence of "dbpedia" in title or abstract
+   #+CAPTION: \centering Compared number of publications at ESWC, ISWC, WWW in 2011 \\dbpedia_{1} representing the occurence of "dbpedia" in full paper \\dbpedia_{2} representing the occurence of "dbpedia" in title or abstract
    #+LABEL: tab:vergleich
-|-----------+----------+-----------+-----------|
-|           | ESWC (%) | ISWC (%)  | WWW (%)   |
-|-----------+----------+-----------+-----------|
-| total     | 57 (100) | 163 (100) | 220 (100) |
-| dbpedia_1 | N/A      | 14 (8.59) | 12 (5.45) |
-| dbpedia_2 | 4 (7.02) | 9 (5.52)  | 1 (0.45)  |
-|-----------+----------+-----------+-----------|
+|-------------+----------+-----------+-----------|
+|             | ESWC (%) | ISWC (%)  | WWW (%)   |
+|-------------+----------+-----------+-----------|
+| total       | 57 (100) | 163 (100) | 220 (100) |
+| dbpedia_{1} | N/A      | 14 (8.59) | 12 (5.45) |
+| dbpedia_{2} | 4 (7.02) | 9 (5.52)  | 1 (0.45)  |
+|-------------+----------+-----------+-----------|
 
    Therefore DBpedia was mentioned in 8.59% and 5.45% of the publications at
-   ISWC and WWW somewhere in the paper. The highest rate of the dbpedia_2
+   ISWC and WWW somewhere in the paper. The highest rate of the dbpedia_{2}
    criteria was reached by ESWC with 7.02% and a number of four papers. There
    were five more papers at ISWC, however this led to a lower percentage
    (5.52). The lowest percentage is reached by WWW with 0.45%.
