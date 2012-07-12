@@ -1,6 +1,6 @@
 #+TITLE:     Academic impact of DBpedia
 #+AUTHOR:    Marcus Nitzschke
-#+DATE:      14.06.2012
+#+DATE:      12.07.2012
 #+LANGUAGE:  en
 #+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
 #+EXPORT_SELECT_TAGS: export
@@ -310,15 +310,15 @@ introduced several analyses and a comparison to the Wikipedia project.
 
 [fn:3] http://arnetminer.org/RESTful_service
 
-[fn:4] TODO
+[fn:4] https://raw.github.com/kenda/dbpedia_impact/master/scripts/get_arnetminer.py
 
-[fn:5] TODO
+[fn:5] https://raw.github.com/kenda/dbpedia_impact/master/scripts/get_semweb_org.sh
 
 [fn:6] http://www.zotero.org/
 
 [fn:7] http://www.r-project.org/
 
-[fn:8] TODO
+[fn:8] https://raw.github.com/kenda/dbpedia_impact/master/scripts/zotero_query.sql
 
 [fn:9] http://en.wikipedia.org/wiki/Wikipedia:Academic_studies_of_Wikipedia
 

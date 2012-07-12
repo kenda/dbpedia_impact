@@ -128,14 +128,14 @@ introduced several analyses and a comparison to the Wikipedia project.
      possibilities. Besides the frontend search Arnetminer also provides a REST
      interface\footnote{http://arnetminer.org/RESTful$_{\mathrm{service}}$ }. So it is possible to search the publications by title. For
      better processing the retrieved data was converted from JSON to Bibtex by a
-     small script\footnote{TODO }.
+     small script\footnote{https://raw.github.com/kenda/dbpedia$_{\mathrm{impact}}$/master/scripts/get$_{\mathrm{arnetminer}}$.py }.
 \item \textbf{Semantic Web Conference Corpus}
 
      The Semantic Web Conference Corpus\footnote{http://data.semanticweb.org } provides numerous informations about
      conferences and the presented talks belonging to the Semantic Web
      topic. This site also offers a SPARQL endpoint which was used to get the
      relevant publications for this paper. The query retrieved all publications
-     with the term ``dbpedia'' in the title or in the abstract. A script\footnote{TODO } got
+     with the term ``dbpedia'' in the title or in the abstract. A script\footnote{https://raw.github.com/kenda/dbpedia$_{\mathrm{impact}}$/master/scripts/get$_{\mathrm{semweb}}$$_{\mathrm{org}}$.sh } got
      the resulting URIs and scraped the corresponding html view for the Bibtex
      representation of the entry.
 \item \textbf{manually}
@@ -163,7 +163,7 @@ introduced several analyses and a comparison to the Wikipedia project.
    publication date or conference names.
 
    The cleaned data was exported from the Zotero database to the csv format by a
-   SQL script\footnote{TODO }. This csv data is the base for the analyses which are done by
+   SQL script\footnote{https://raw.github.com/kenda/dbpedia$_{\mathrm{impact}}$/master/scripts/zotero$_{\mathrm{query}}$.sql }. This csv data is the base for the analyses which are done by
    Gnu R\footnote{http://www.r-project.org/ }. The main analyses provided in this paper are:
 \begin{itemize}
 \item total number of journal articles / conference paper by year
