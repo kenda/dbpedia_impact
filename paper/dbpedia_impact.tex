@@ -53,14 +53,14 @@ introduced several analyses and a comparison to the Wikipedia project.
 
   In 2011 there was a large survey to collect journal articles and conference
   paper concerning the Wikipedia project. The findings of this survey were published
-  and partly analyzed\footnote{http://en.wikipedia.org/wiki/Wikipedia:Academic\_{}studies\_{}of\_{}Wikipedia }. Such an analysis showed that the number of
+  and partly analyzed\footnote{\href{http://en.wikipedia.org/wiki/Wikipedia:Academic_studies_of_Wikipedia}{http://en.wikipedia.org/wiki/Wikipedia:Academic\_studies\_of\_Wikipedia} }. Such an analysis showed that the number of
   conference paper decreased constantly from five years after the founding
   while the number of journal articles still grows.
 
   A similar analysis for the DBpedia project is the goal of this paper. DBpedia
-  extracts structured content from Wikipedia and republishes this content in a
+  extracts structured content from Wikipedia and republishs this content in a
   semantically understandable way. This leads to one of the most important datasets in the
-  \emph{Linked Open Data} cloud\footnote{http://richard.cyganiak.de/2007/10/lod/ }. The DBpedia project was founded in 2007.
+  \emph{Linked Open Data} cloud\footnote{\href{http://richard.cyganiak.de/2007/10/lod/}{http://richard.cyganiak.de/2007/10/lod/} }. The DBpedia project was founded in 2007.
 \subsection{Important Conferences/Journals}
 \label{sec-1-1}
 
@@ -103,7 +103,7 @@ introduced several analyses and a comparison to the Wikipedia project.
 \end{table}
 
    The main criteria was that the term ``dbpedia'' occurs in the title
-   or - if supported by the source - the abstract of the
+   or -- if supported by the source -- the abstract of the
    publication. Later the total amount was reduced to only match
    conference papers and journal articles which were all peer
    reviewed.
@@ -113,7 +113,7 @@ introduced several analyses and a comparison to the Wikipedia project.
 \begin{itemize}
 \item \textbf{Google Scholar}
 
-     Google Scholar\footnote{http://scholar.google.de/ } allows to search a multiplicity of academic
+     Google Scholar\footnote{\href{http://scholar.google.com/}{http://scholar.google.com/} } allows to search a multiplicity of academic
      publications. The search was limited because the intent of this paper is to
      collect only the most relevant publications concerning DBpedia. The search
      term \texttt{allintitle:dbpedia} limited the total number of results to that
@@ -121,21 +121,21 @@ introduced several analyses and a comparison to the Wikipedia project.
      moment of writing (06/2012).
 \item \textbf{Arnetminer}
 
-     Arnetminer\footnote{http://arnetminer.org/ } is a search engine which extends the collection of
+     Arnetminer\footnote{\href{http://arnetminer.org/}{http://arnetminer.org/} } is a search engine which extends the collection of
      academic documents with informations about authors, conferences or
      journals. These informations linked together should enable a complete view
      of the data. In comparison to Google Scholar this also allows larger search
      possibilities. Besides the frontend search Arnetminer also provides a REST
-     interface\footnote{http://arnetminer.org/RESTful\_{}service }. So it is possible to search the publications by title. For
+     interface\footnote{\href{http://arnetminer.org/RESTful_service}{http://arnetminer.org/RESTful\_service} }. So it is possible to search the publications by title. For
      better processing the retrieved data was converted from JSON to Bibtex by a
-     small script\footnote{https://raw.github.com/kenda/dbpedia\_{}impact/master/scripts/get\_{}arnetminer.py }.
+     small script\footnote{\href{https://raw.github.com/kenda/dbpedia_impact/master/scripts/get_arnetminer.py}{https://raw.github.com/kenda/dbpedia\_impact/master/scripts/get\_arnetminer.py} }.
 \item \textbf{Semantic Web Conference Corpus}
 
-     The Semantic Web Conference Corpus\footnote{http://data.semanticweb.org } provides numerous informations about
+     The Semantic Web Conference Corpus\footnote{\href{http://data.semanticweb.org}{http://data.semanticweb.org} } provides numerous informations about
      conferences and the presented talks belonging to the Semantic Web
      topic. This site also offers a SPARQL endpoint which was used to get the
      relevant publications for this paper. The query retrieved all publications
-     with the term ``dbpedia'' in the title or in the abstract. A script\footnote{https://raw.github.com/kenda/dbpedia\_{}impact/master/scripts/get\_{}semweb\_{}org.sh } got
+     with the term ``dbpedia'' in the title or in the abstract. A script\footnote{\href{https://raw.github.com/kenda/dbpedia_impact/master/scripts/get_semweb_org.sh}{https://raw.github.com/kenda/dbpedia\_impact/master/scripts/get\_semweb\_org.sh} } got
      the resulting URIs and scraped the corresponding html view for the Bibtex
      representation of the entry.
 \item \textbf{manually}
@@ -145,13 +145,13 @@ introduced several analyses and a comparison to the Wikipedia project.
      collected manually. In case of the SWJ the underlying search term executed by a Google
      search was \texttt{dbpedia site:semantic-web-journal.net/content}. This means that all published research papers by the SWJ were
      searched by the term ``dbpedia''. The resulting pages were reviewed so that the
-     term only occured in the title or abstract and not in a comment for example.
+     term only occured in the title or abstract and not in a review comment for example.
 \end{itemize}
 \subsection{Data processing}
 \label{sec-2-2}
 
    To ensure a structured organization and analysis of the collected data a
-   reference management software, namely Zotero\footnote{http://www.zotero.org/ }, was used. This solution
+   reference management software, namely Zotero\footnote{\href{http://www.zotero.org/}{http://www.zotero.org/} }, was used. This solution
    has numerous advantages, for example a Bibtex importer and an easy possibility to import
    results from Google Scholar via a browser plugin.
 
@@ -163,8 +163,8 @@ introduced several analyses and a comparison to the Wikipedia project.
    publication date or conference names.
 
    The cleaned data was exported from the Zotero database to the csv format by a
-   SQL script\footnote{https://raw.github.com/kenda/dbpedia\_{}impact/master/scripts/zotero\_{}query.sql }. This csv data is the base for the analyses which are done by
-   Gnu R\footnote{http://www.r-project.org/ }. The main analyses provided in this paper are:
+   SQL script\footnote{\href{https://raw.github.com/kenda/dbpedia_impact/master/scripts/zotero_query.sql}{https://raw.github.com/kenda/dbpedia\_impact/master/scripts/zotero\_query.sql} }. This csv data is the base for the analyses which are done by
+   Gnu R\footnote{\href{http://www.r-project.org/}{http://www.r-project.org/} }. The main analyses provided in this paper are:
 \begin{itemize}
 \item total number of journal articles / conference paper by year
 \item total number of journal articles / conference paper by journal/conference
@@ -242,7 +242,7 @@ introduced several analyses and a comparison to the Wikipedia project.
    occured in the title or abstract.
 
 \begin{table}[htb]
-\caption{\centering Compared number of publications at ESWC, ISWC, WWW in 2011 \\dbpedia$_{1}$ representing the occurence of ``dbpedia'' in full paper \\dbpedia$_{2}$ representing the occurence of ``dbpedia'' in title or abstract} \label{tab:vergleich}
+\caption{\centering Compared number of publications at ESWC, ISWC, WWW in 2011 \\\hspace{0.4cm}dbpedia$_{1}$ representing the occurence of ``dbpedia'' in full paper \\\hspace{1.05cm}dbpedia$_{2}$ representing the occurence of ``dbpedia'' in title or abstract} \label{tab:vergleich}
 \begin{center}
 \begin{tabular}{llll}
 \hline
@@ -290,7 +290,8 @@ introduced several analyses and a comparison to the Wikipedia project.
   additional manual sources cover the bigger part and the most important
   publications it is hard to promise that all available publications that would
   observe the requirements of this study were retrieved. But these missing
-  publications probably wouldn't lead to significantly different results.\\
+  publications probably wouldn't lead to significantly different results.
+
   The data sources also showed different measurements of quality. While Google
   Scholar contains the highest number of results it also contains the highest
   number of publications which had to be modified manually either because of lacking
